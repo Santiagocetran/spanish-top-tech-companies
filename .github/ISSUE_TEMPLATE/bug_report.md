@@ -1,16 +1,20 @@
 ---
-name: Something is wrong
-about: A wrong figure on the site, an MCP tool that fails, a posting that won't apply.
+name: Local prototype bug
+about: A reproducible issue in validation, normalization, lifecycle or search.
 title: ""
 labels: ["bug"]
 ---
 
-**Where:** <!-- a page URL, an MCP tool name (find_jobs, job_questions…), or an /api/v1/ file -->
+**Commit and runtime versions:**
 
-**What happened:**
+**Command or module:**
 
-**What you expected:**
+**Minimal synthetic reproduction:**
 
-**Your agent, if it was the MCP:** <!-- Claude, Codex, Cursor… -->
+**Expected behavior:**
 
-<!-- Never paste your CV, a token, or anything that identifies a person. -->
+**Actual behavior:**
+
+<!-- No CVs, tokens, recruiter contacts, personal salaries, offer letters or raw
+employer responses. This prototype has no live website, MCP or application tools.
+Read SECURITY.md before reporting a potentially exploitable issue. -->

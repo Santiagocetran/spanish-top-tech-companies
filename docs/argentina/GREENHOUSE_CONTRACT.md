@@ -23,8 +23,10 @@ Failed or malformed optional detail bodies affect pay enrichment only. Inventory
 
 ## Run
 
+From the parent of your checkout (or omit `cd` if already at the repository root):
+
 ```sh
-cd /home/agent/argentina-v0
+cd spanish-top-tech-companies
 npm test
 npm run demo:greenhouse
 npm run snapshot:check -- .cache/ar-greenhouse/snapshot.json

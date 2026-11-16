@@ -1,0 +1,33 @@
+name: Employer source research lead
+description: Suggest a public employer careers source for future review, not automatic ingestion.
+title: "Source research: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a research lead only. It does not approve crawling, prove Argentina coverage,
+        or publish individual jobs. Use public employer URLs only. Do not include CVs,
+        contacts, offer letters, personal salaries, credentials or copied job descriptions.
+  - type: input
+    id: employer
+    attributes:
+      label: Employer name
+    validations:
+      required: true
+  - type: input
+    id: careers
+    attributes:
+      label: Public employer careers URL
+      description: Prefer an employer-owned page linking to its job board.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public ownership and Argentina-scope evidence links
+      description: Unknown is acceptable. Do not infer eligibility from headquarters or generic remote wording.
+  - type: textarea
+    id: permission
+    attributes:
+      label: Published source terms or reuse information
+      description: Link if known. Public access alone does not establish retrieval or republication permission.

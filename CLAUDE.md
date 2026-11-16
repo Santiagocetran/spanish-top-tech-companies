@@ -1,3 +1,11 @@
+# Argentina adaptation: active instructions
+
+The active product is the offline Argentina jobs prototype. Read [CONTRIBUTING.md](CONTRIBUTING.md), [current documentation](docs/argentina/README.md), and the [corrected plan](docs/argentina/IMPLEMENTATION_PLAN.md). Use `npm test` and the documented synthetic demos. Preserve unknown values and source evidence; do not invoke private salary refresh, live discovery, application automation or production publication for this adaptation.
+
+The remainder of this file is historical upstream Spain guidance. Its salary thresholds, private CSV, Levels.fyi ingestion, live services, telemetry, weekly refresh and release procedures apply only when explicitly maintaining those isolated historical paths. They are not Argentina requirements. Keep licenses and provenance intact. No automatic release, deployment or Actions execution is enabled by the Argentina workflow.
+
+---
+
 # spanish-top-tech-companies
 
 What tech companies in Spain pay, by role, region and experience: the website

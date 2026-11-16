@@ -1,7 +1,18 @@
-<!-- What changes and why, in a few lines. Keep the title short: it becomes the release note. -->
+<!-- State the problem, resulting behavior and relevant limitations. -->
 
-Label it `patch`, `minor` or `major` (see CONTRIBUTING.md).
+## Change
 
-- [ ] `python3 tests/test_pipeline.py` passes
-- [ ] If data changed: `python3 scripts/validate.py && python3 scripts/site.py --refresh`, regenerated `data/` committed
-- [ ] No `companies.csv`, no single person's salary, no tokens
+## Verification
+
+<!-- Record actual commands/results, including any baseline failures. -->
+
+- [ ] `npm test` passes
+- [ ] Relevant fixture demo, snapshot validation and explicit build pass
+- [ ] `git diff --check` passes
+- [ ] New fixtures are synthetic or have reviewed permission/provenance
+- [ ] No unapproved real source bodies, personal data, credentials or generated cache/build files (labelled synthetic text is allowed)
+- [ ] No live crawl, deployment, schedule or registry publication enabled
+- [ ] Affected documentation and rules/schema compatibility notes updated
+
+<!-- Historical regressions are required only for affected shared/upstream paths.
+Do not refresh private salary datasets. No automatic release follows this PR. -->

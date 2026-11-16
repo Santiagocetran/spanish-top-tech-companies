@@ -1,6 +1,6 @@
 # Argentina Tech Jobs — implementation plan
 
-**Status:** Independently audited and corrected; ready to begin the local fixture-first milestone after implementation approval. Public-launch readiness remains unproven. This fork contains upstream code and planning documents only; Argentina implementation, deployment, employer registry and production crawling have not started.
+**Status (updated 2026-11-16):** The local P0–P1 foundation and V0 vertical slice are implemented, followed by bounded offline Greenhouse description/pay contracts. See [V0 handoff](LOCAL_V0.md), [current increment](GREENHOUSE_CONTRACT.md) and their execution/review evidence. This document remains the corrected target architecture; later-phase tasks are not claims of implemented behavior. Real employer registries remain empty, and live crawling, hosting, MCP transports and production publication have not started. Public-launch readiness remains unproven.
 
 **Working name:** `argentina-tech-jobs` (owner and public name to be approved before publication).
 

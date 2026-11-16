@@ -1,3 +1,5 @@
+> **Historical upstream methodology.** The salary aggregation rules below describe the original Spain project. For the implemented Argentina eligibility, freshness and compensation behavior, read [the current guide](docs/argentina/README.md) and [Greenhouse contracts](docs/argentina/GREENHOUSE_CONTRACT.md). No Spanish salary dataset is translated into Argentina results.
+
 # Methodology
 
 ## The website and the MCP server

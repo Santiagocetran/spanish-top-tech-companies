@@ -1,3 +1,5 @@
+> **Historical upstream context.** This file records Spain-specific decisions and past operational behavior. It does not describe the active Argentina deployment or authorize refresh/crawl/publish actions. Start with [Argentina documentation](argentina/README.md) for the current local prototype.
+
 # Working context
 
 Read this before touching the data pipeline. Several things about Levels.fyi

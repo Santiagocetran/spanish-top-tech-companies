@@ -1,3 +1,5 @@
+> **Historical/shared ATS library.** The Argentina prototype does not enable these live adapters. Its offline contracts live in [`lib/jobs/`](../jobs/) and are documented in the [Argentina guide](../../docs/argentina/README.md).
+
 # lib/ats
 
 The job-board code the site's crawl and board finder use: one adapter per ATS

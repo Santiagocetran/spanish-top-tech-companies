@@ -1,4 +1,4 @@
-# Argentina adaptation: audited implementation plan
+# Argentina Tech Jobs — developer guide
 
 This fork is preparing an Argentina-focused technology job discovery service: positions located in Argentina and remote positions available to people residing there.
 

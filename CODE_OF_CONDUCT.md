@@ -37,8 +37,8 @@ Examples of unacceptable behavior include:
   professional setting
 
 In this project, publishing others' private information also covers salaries:
-never post a salary, offer or team detail that points at a specific person
-other than yourself.
+do not post personal salary records, offer letters, CVs or identifying team
+details in this prototype’s public contribution channels.
 
 ## Enforcement Responsibilities
 
@@ -63,8 +63,10 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the maintainer at ugartep117@gmail.com. All complaints will be
-reviewed and investigated promptly and fairly.
+reported to this fork’s maintainers through a contact method published by the
+[repository owner](https://github.com/Santiagocetran). If no private method is
+available, request one without disclosing incident details publicly. The
+upstream project’s maintainer is not the enforcement contact for this fork.
 
 All community leaders are obligated to respect the privacy and security of the
 reporter of any incident.
