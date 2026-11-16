@@ -74,3 +74,6 @@ permission review; no source activation is authorized by this contribution.
 [CodeRoad qualification](CODEROAD_QUALIFICATION.md) records the subsequent public
 page review: ownership link established, historical posting unavailable, and
 permission still unresolved. No runtime source was added.
+
+[Remote qualification](REMOTE_QUALIFICATION.md) records an unsupported current
+ATS destination and a failed permission gate. No adapter or source was added.

@@ -7,7 +7,7 @@ This is a small discovery checkpoint, not source approval. Chewie's prior search
 | Candidate | Employer-owned evidence read | Board/transport indication | Argentina relevance and remaining gaps |
 | --- | --- | --- | --- |
 | GitLab | [Careers](https://about.gitlab.com/jobs/) identifies all-remote culture and links to its own all-jobs page. | Search results identify a GitLab Greenhouse board (`gitlab`); the direct employer-to-ATS link was not established from the page read. | Remote culture is background only. Argentina posting eligibility, exact board ownership chain and permission remain unverified. |
-| Remote | [Careers](https://remote.com/careers) links to its own openings page and describes a distributed team. | Search results identify [Greenhouse `remotecom`](https://job-boards.greenhouse.io/remotecom); the careers page read links to `remote.com/openings`, not directly to the ATS. | Potential global-remote lead, not proof any role accepts Argentina. Board ownership chain and reuse permission remain unverified. |
+| Remote (historical lead; see follow-up below) | [Careers](https://remote.com/careers) links to its own openings page and describes a distributed team. | Search results identify [Greenhouse `remotecom`](https://job-boards.greenhouse.io/remotecom); the careers page read links to `remote.com/openings`, not directly to the ATS. | Potential global-remote lead, not proof any role accepts Argentina. Board ownership chain and reuse permission remain unverified. |
 | dLocal | [About page](https://www.dlocal.com/company/about-us/) links to careers and lists a Buenos Aires office. | Search results identify [Lever `dlocal`](https://jobs.lever.co/dlocal), not Greenhouse. | Local presence is background, not job eligibility. Current hiring scope and permission are unknown. Lever is not implemented in the new runtime, so this is a transport gap rather than an approved source. |
 
 Employer terms/republication scope have not been established. Do not interpret a public page, search snippet, company office or remote culture as permission or eligibility. No current vacancy counts are asserted. Real `data/registry/` files remain empty.
@@ -34,3 +34,10 @@ The [dated CodeRoad qualification](CODEROAD_QUALIFICATION.md) establishes a dire
 employer-to-Greenhouse link and posting-specific Argentina evidence. The saved
 Python/React lead is no longer open. Collection/republication permission remains
 unresolved, with restrictive corporate terms; source activation is not approved.
+
+## Remote follow-up
+
+[Remote qualification](REMOTE_QUALIFICATION.md) found employer-linked Remote ATS
+pages rather than a verified Greenhouse chain, and restrictive automation/reuse
+terms. It is not approved for activation. Earlier search-derived provider clues
+must not be treated as current source identity.
