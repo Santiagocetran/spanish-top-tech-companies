@@ -216,3 +216,38 @@ test('collector failures quarantine unseen IDs and retain prior IDs while reconc
   assert.equal(fresh.jobs.length, 1);
   assert.equal(fresh.jobs[0].external_id, '103');
 });
+
+// Synthetic transport cases inspired by source-review failure modes; no real pages.
+test('HTTP 200 expired-page redirects and HTML cannot close prior inventory', async () => {
+  const apply = (previous, result, run_id, at) => reconcileSnapshot(previous, {
+    run_id, observed_at: at, sources: [result.envelope],
+  }, { sources: registry.sources, metadata: {
+    dataset_kind: 'synthetic', schema_version: 'ar-v0-1', rules_version: RULES_VERSION,
+    producer_code_sha: '0'.repeat(40), registry_hash: '0'.repeat(64),
+    removal_policy_version: 'v1', generation_id: run_id, evidence: result.evidence,
+  } });
+  const initial = await collectGreenhouse({ ...defaults(), transport: transportFor(fullInventory()) });
+  const baseline = apply(null, initial, 'baseline', observed_at);
+  for (const [response, issue] of [
+    [{ status: 200, url: 'https://job-boards.greenhouse.io/synthetic?error=true', body: '<p>Synthetic vacancy expired</p>' }, 'REDIRECT_REJECTED'],
+    [{ status: 200, body: '<html><p>Synthetic vacancy expired</p></html>' }, 'MISSING_JOBS_ARRAY'],
+  ]) {
+    let snapshot = baseline;
+    for (const day of [17, 18]) {
+      const at = `2026-11-${day}T00:00:00.000Z`;
+      const run_id = `failed_${day}`;
+      const result = await collectGreenhouse({ ...defaults(), run_id, observed_at: at, transport: async () => response });
+      assert.equal(result.envelope.inventory_complete, false);
+      assert.deepEqual(result.envelope.jobs, []);
+      assert.ok(result.envelope.issues.includes(issue));
+      snapshot = apply(snapshot, result, run_id, at);
+      assert.equal(snapshot.jobs.length, baseline.jobs.length);
+      for (const job of snapshot.jobs) {
+        assert.equal(job.missing_complete_runs, 0);
+        assert.equal(job.closed_at, null);
+        assert.equal(job.last_eligibility_verified_at, observed_at);
+      }
+      assert.deepEqual(apply(snapshot, result, run_id, at), snapshot);
+    }
+  }
+});

@@ -38,3 +38,11 @@ node --test tests/jobs-ar/collection.test.mjs tests/jobs-ar/source-contract.test
 Node v22.23.4; no new dependencies. The full suite passes 75 tests. [Execution log](evidence/collection/tests.log) and [independent review](evidence/collection/REVIEW.md) record scope and corrections. The review reproduced two gaps that are now covered: omitted descriptions being treated as verified, and unseen malformed observed IDs blocking the entire reconciliation.
 
 The existing fixture CLI and demos remain offline. This library is not wired to a live runtime, and no sources were activated. Existing eligibility rules remain `ar-v0-2`; this change tightens collection admission and lifecycle handling, not the text classifier.
+
+## Research-derived regression coverage
+
+Synthetic cases now exercise HTTP 200 expired-page redirects and HTML error
+bodies across repeated reconciliation runs, plus application country selectors
+and salary-expectation text. These do not become inventory closure, geographic
+proof or offered compensation. See [verification](evidence/research-regressions/REVIEW.md).
+No real descriptions were copied and no HTML adapter was added.

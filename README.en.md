@@ -48,9 +48,9 @@ Parsing supports a bounded vocabulary and HTML subset. Unrecognized prose stays 
 - [Current Greenhouse contracts, limits and evidence](docs/argentina/GREENHOUSE_CONTRACT.md)
 - [V0 handoff and historical baseline](docs/argentina/LOCAL_V0.md)
 - [Corrected implementation plan](docs/argentina/IMPLEMENTATION_PLAN.md) and [audit resolutions](docs/argentina/AUDIT_DISPOSITION.md)
-- [Latest independent review](docs/argentina/evidence/greenhouse-contract/REVIEW.md)
+- [Latest independent review](docs/argentina/evidence/research-regressions/REVIEW.md)
 
-Latest verification records **75 passing tests**, offline demo/build checks and passing historical job regressions. Two high-severity audit entries remain in inherited Playwright development dependencies, which this prototype does not use. Results and limitations are documented; they do not establish production readiness.
+Latest verification records **81 passing tests** with network access blocked. Earlier checkpoints record offline demo/build checks and passing historical job regressions. Two high-severity audit entries remain in inherited Playwright development dependencies, which this prototype does not use. Results and limitations are documented; they do not establish production readiness.
 
 Inherited workflows are archived outside `.github/workflows/`. Schedules, deployment, releases and MCP publication remain disabled. The Argentina runtime does not load Spanish data, telemetry or legacy endpoints.
 

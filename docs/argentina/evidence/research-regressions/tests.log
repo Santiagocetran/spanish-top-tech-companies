@@ -1,0 +1,496 @@
+TAP version 13
+# Subtest: collection requires injected transport and rejects invalid sources before dispatch
+ok 1 - collection requires injected transport and rejects invalid sources before dispatch
+  ---
+  duration_ms: 33.680369
+  type: 'test'
+  ...
+# Subtest: single full inventory emits validated jobs/evidence and exact provider request
+ok 2 - single full inventory emits validated jobs/evidence and exact provider request
+  ---
+  duration_ms: 45.318366
+  type: 'test'
+  ...
+# Subtest: empty array is complete; malformed 200, failures and redirects never mean empty inventory
+ok 3 - empty array is complete; malformed 200, failures and redirects never mean empty inventory
+  ---
+  duration_ms: 10.79844
+  type: 'test'
+  ...
+# Subtest: caps and pagination hints never produce complete inventory
+ok 4 - caps and pagination hints never produce complete inventory
+  ---
+  duration_ms: 29.718492
+  type: 'test'
+  ...
+# Subtest: listed IDs survive required evidence failures without preventing unrelated absence reconciliation
+ok 5 - listed IDs survive required evidence failures without preventing unrelated absence reconciliation
+  ---
+  duration_ms: 8.304501
+  type: 'test'
+  ...
+# Subtest: unreliable or duplicate IDs invalidate coverage, never merge silently
+ok 6 - unreliable or duplicate IDs invalidate coverage, never merge silently
+  ---
+  duration_ms: 13.917932
+  type: 'test'
+  ...
+# Subtest: optional detail failure and request/detail caps preserve listing geographic evidence
+ok 7 - optional detail failure and request/detail caps preserve listing geographic evidence
+  ---
+  duration_ms: 10.371152
+  type: 'test'
+  ...
+# Subtest: deadline rejects late transport response and aborts request without mutation
+ok 8 - deadline rejects late transport response and aborts request without mutation
+  ---
+  duration_ms: 2.970069
+  type: 'test'
+  ...
+# Subtest: successful optional native pay detail attaches only its own option range
+ok 9 - successful optional native pay detail attaches only its own option range
+  ---
+  duration_ms: 6.019519
+  type: 'test'
+  ...
+# Subtest: request budget skips optional dispatch and hanging transport obeys deadline
+ok 10 - request budget skips optional dispatch and hanging transport obeys deadline
+  ---
+  duration_ms: 17.150116
+  type: 'test'
+  ...
+# Subtest: missing meta.total is incomplete and EU collection is unsupported
+ok 11 - missing meta.total is incomplete and EU collection is unsupported
+  ---
+  duration_ms: 2.19352
+  type: 'test'
+  ...
+# Subtest: content=true missing/null/nonstring bodies remain observed required failures
+ok 12 - content=true missing/null/nonstring bodies remain observed required failures
+  ---
+  duration_ms: 30.312642
+  type: 'test'
+  ...
+# Subtest: collector failures quarantine unseen IDs and retain prior IDs while reconciling unrelated jobs
+ok 13 - collector failures quarantine unseen IDs and retain prior IDs while reconciling unrelated jobs
+  ---
+  duration_ms: 61.961864
+  type: 'test'
+  ...
+# Subtest: HTTP 200 expired-page redirects and HTML cannot close prior inventory
+ok 14 - HTTP 200 expired-page redirects and HTML cannot close prior inventory
+  ---
+  duration_ms: 60.591997
+  type: 'test'
+  ...
+# Subtest: native pay tiers preserve scopes, exact explicit semantics and amounts
+ok 15 - native pay tiers preserve scopes, exact explicit semantics and amounts
+  ---
+  duration_ms: 26.152469
+  type: 'test'
+  ...
+# Subtest: unknowns never acquire currency, period, basis or eligibility from vague title
+ok 16 - unknowns never acquire currency, period, basis or eligibility from vague title
+  ---
+  duration_ms: 4.372945
+  type: 'test'
+  ...
+# Subtest: optional malformed/failure/empty responses remain distinct and bounded
+ok 17 - optional malformed/failure/empty responses remain distinct and bounded
+  ---
+  duration_ms: 7.697163
+  type: 'test'
+  ...
+# Subtest: optional outage carries pay only across unchanged material option context
+ok 18 - optional outage carries pay only across unchanged material option context
+  ---
+  duration_ms: 110.499506
+  type: 'test'
+  ...
+# Subtest: description: explicit EN
+ok 19 - description: explicit EN
+  ---
+  duration_ms: 77.592098
+  type: 'test'
+  ...
+# Subtest: description: explicit ES
+ok 20 - description: explicit ES
+  ---
+  duration_ms: 13.796668
+  type: 'test'
+  ...
+# Subtest: description: regional
+ok 21 - description: regional
+  ---
+  duration_ms: 7.848116
+  type: 'test'
+  ...
+# Subtest: description: broad exclusion
+ok 22 - description: broad exclusion
+  ---
+  duration_ms: 4.09267
+  type: 'test'
+  ...
+# Subtest: description: bare
+ok 23 - description: bare
+  ---
+  duration_ms: 4.287998
+  type: 'test'
+  ...
+# Subtest: description: foreign attendance
+ok 24 - description: foreign attendance
+  ---
+  duration_ms: 4.320362
+  type: 'test'
+  ...
+# Subtest: description: authorization
+ok 25 - description: authorization
+  ---
+  duration_ms: 13.842907
+  type: 'test'
+  ...
+# Subtest: description: travel schedule
+ok 26 - description: travel schedule
+  ---
+  duration_ms: 8.964412
+  type: 'test'
+  ...
+# Subtest: description: company office
+ok 27 - description: company office
+  ---
+  duration_ms: 9.436952
+  type: 'test'
+  ...
+# Subtest: description: conflict
+ok 28 - description: conflict
+  ---
+  duration_ms: 5.150701
+  type: 'test'
+  ...
+# Subtest: description: unrecognized restriction
+ok 29 - description: unrecognized restriction
+  ---
+  duration_ms: 3.813303
+  type: 'test'
+  ...
+# Subtest: description: negation
+ok 30 - description: negation
+  ---
+  duration_ms: 3.142892
+  type: 'test'
+  ...
+# Subtest: description: active html
+ok 31 - description: active html
+  ---
+  duration_ms: 3.043408
+  type: 'test'
+  ...
+# Subtest: description: entities
+ok 32 - description: entities
+  ---
+  duration_ms: 3.358875
+  type: 'test'
+  ...
+# Subtest: disclosed conditions persist as codes; unknown prose and contacts never persist
+ok 33 - disclosed conditions persist as codes; unknown prose and contacts never persist
+  ---
+  duration_ms: 10.387385
+  type: 'test'
+  ...
+# Subtest: malformed or oversized HTML cannot hide restrictions
+ok 34 - malformed or oversized HTML cannot hide restrictions
+  ---
+  duration_ms: 0.411261
+  type: 'test'
+  ...
+# Subtest: specific location and description conflicts stay unknown
+ok 35 - specific location and description conflicts stay unknown
+  ---
+  duration_ms: 14.37326
+  type: 'test'
+  ...
+# Subtest: malformed allowed-tag nesting fails closed rather than recovering HTML
+ok 36 - malformed allowed-tag nesting fails closed rather than recovering HTML
+  ---
+  duration_ms: 16.981772
+  type: 'test'
+  ...
+# Subtest: synthetic provider fixture becomes strict canonical jobs and bounded evidence
+ok 37 - synthetic provider fixture becomes strict canonical jobs and bounded evidence
+  ---
+  duration_ms: 67.051864
+  type: 'test'
+  ...
+# Subtest: registry and provider identities reject collisions and remain independent of title
+ok 38 - registry and provider identities reject collisions and remain independent of title
+  ---
+  duration_ms: 14.153058
+  type: 'test'
+  ...
+# Subtest: untrusted payloads and URLs cannot cross persistence boundary
+ok 39 - untrusted payloads and URLs cannot cross persistence boundary
+  ---
+  duration_ms: 4.922079
+  type: 'test'
+  ...
+# Subtest: geography preserves ambiguity and documented provider enum mappings
+ok 40 - geography preserves ambiguity and documented provider enum mappings
+  ---
+  duration_ms: 0.977382
+  type: 'test'
+  ...
+# Subtest: option-scoped restrictions defeat broad language; uncertainty remains unknown
+ok 41 - option-scoped restrictions defeat broad language; uncertainty remains unknown
+  ---
+  duration_ms: 12.509988
+  type: 'test'
+  ...
+# Subtest: pay matches exact tuple, option, applicability and fresh evidence only
+ok 42 - pay matches exact tuple, option, applicability and fresh evidence only
+  ---
+  duration_ms: 2.91391
+  type: 'test'
+  ...
+# Subtest: unparsed descriptions and title restrictions cannot confirm Argentina
+ok 43 - unparsed descriptions and title restrictions cannot confirm Argentina
+  ---
+  duration_ms: 10.399577
+  type: 'test'
+  ...
+# Subtest: unsupported mixed and negated location labels never confirm by substring
+ok 44 - unsupported mixed and negated location labels never confirm by substring
+  ---
+  duration_ms: 12.130679
+  type: 'test'
+  ...
+# Subtest: technology role taxonomy includes data QA and security, leaves generic engineering unknown
+ok 45 - technology role taxonomy includes data QA and security, leaves generic engineering unknown
+  ---
+  duration_ms: 0.940269
+  type: 'test'
+  ...
+# Subtest: unreviewed title qualifiers never confirm eligibility
+ok 46 - unreviewed title qualifiers never confirm eligibility
+  ---
+  duration_ms: 21.050418
+  type: 'test'
+  ...
+# Subtest: description and native detail fixture to local state and scoped search
+ok 47 - description and native detail fixture to local state and scoped search
+  ---
+  duration_ms: 326.628683
+  type: 'test'
+  ...
+# Subtest: held-out descriptions distinguish job scope, negation, background and unrelated requirements
+ok 48 - held-out descriptions distinguish job scope, negation, background and unrelated requirements
+  ---
+  duration_ms: 28.286035
+  type: 'test'
+  ...
+# Subtest: held-out unsupported markup and hidden restrictions fail safely without excerpts
+ok 49 - held-out unsupported markup and hidden restrictions fail safely without excerpts
+  ---
+  duration_ms: 1.143605
+  type: 'test'
+  ...
+# Subtest: held-out raw posting restrictions cannot be overridden by favorable description clauses
+ok 50 - held-out raw posting restrictions cannot be overridden by favorable description clauses
+  ---
+  duration_ms: 55.612511
+  type: 'test'
+  ...
+# Subtest: held-out malformed optional bodies fail pay enrichment without aborting the listing
+ok 51 - held-out malformed optional bodies fail pay enrichment without aborting the listing
+  ---
+  duration_ms: 23.98166
+  type: 'test'
+  ...
+# Subtest: held-out native pay text never silently supplies unstructured missing dimensions
+ok 52 - held-out native pay text never silently supplies unstructured missing dimensions
+  ---
+  duration_ms: 12.64818
+  type: 'test'
+  ...
+# Subtest: held-out explicit pay tiers preserve US/AR scope and optional failure
+ok 53 - held-out explicit pay tiers preserve US/AR scope and optional failure
+  ---
+  duration_ms: 3.389719
+  type: 'test'
+  ...
+# Subtest: held-out optional detail outage preserves still-fresh pay with usable option references
+ok 54 - held-out optional detail outage preserves still-fresh pay with usable option references
+  ---
+  duration_ms: 34.707676
+  type: 'test'
+  ...
+# Subtest: offline raw fixture to file to exact search, replay, absence and explicit rebuild
+ok 55 - offline raw fixture to file to exact search, replay, absence and explicit rebuild
+  ---
+  duration_ms: 338.963809
+  type: 'test'
+  ...
+# Subtest: unapproved provider fields and descriptions never leak to persisted state
+ok 56 - unapproved provider fields and descriptions never leak to persisted state
+  ---
+  duration_ms: 33.987912
+  type: 'test'
+  ...
+# Subtest: strict fake-time eligibility and independent pay boundaries
+ok 57 - strict fake-time eligibility and independent pay boundaries
+  ---
+  duration_ms: 2.917832
+  type: 'test'
+  ...
+# Subtest: complete absence, replay, 24h closure, reopening and source removal
+ok 58 - complete absence, replay, 24h closure, reopening and source removal
+  ---
+  duration_ms: 36.093829
+  type: 'test'
+  ...
+# Subtest: plan changes, partial runs, required failures and optional pay failure
+ok 59 - plan changes, partial runs, required failures and optional pay failure
+  ---
+  duration_ms: 17.389829
+  type: 'test'
+  ...
+# Subtest: strict persistence and evidence survive failed/empty inventories, removals prune content
+ok 60 - strict persistence and evidence survive failed/empty inventories, removals prune content
+  ---
+  duration_ms: 49.441878
+  type: 'test'
+  ...
+# Subtest: complete inventory separates observed required failure, absent IDs and optional pay failure
+ok 61 - complete inventory separates observed required failure, absent IDs and optional pay failure
+  ---
+  duration_ms: 20.005241
+  type: 'test'
+  ...
+# Subtest: explicit failed observations quarantine unseen IDs and preserve absence safety
+ok 62 - explicit failed observations quarantine unseen IDs and preserve absence safety
+  ---
+  duration_ms: 8.840192
+  type: 'test'
+  ...
+# Subtest: country selector options do not establish posting-specific Argentina eligibility
+ok 63 - country selector options do not establish posting-specific Argentina eligibility
+  ---
+  duration_ms: 90.130314
+  type: 'test'
+  ...
+# Subtest: country dropdown embedded in description is unsupported rather than hiring evidence
+ok 64 - country dropdown embedded in description is unsupported rather than hiring evidence
+  ---
+  duration_ms: 10.28538
+  type: 'test'
+  ...
+# Subtest: candidate USD monthly expectations never become employer compensation or pay matches
+ok 65 - candidate USD monthly expectations never become employer compensation or pay matches
+  ---
+  duration_ms: 6.42959
+  type: 'test'
+  ...
+# Subtest: salary expectation prose is unsupported and cannot satisfy pay filtering
+ok 66 - salary expectation prose is unsupported and cannot satisfy pay filtering
+  ---
+  duration_ms: 6.878817
+  type: 'test'
+  ...
+# Subtest: explicit employer pay remains filterable independently of application questions
+ok 67 - explicit employer pay remains filterable independently of application questions
+  ---
+  duration_ms: 11.540085
+  type: 'test'
+  ...
+# Subtest: project identity is local and external behavior is disabled
+ok 68 - project identity is local and external behavior is disabled
+  ---
+  duration_ms: 15.205693
+  type: 'test'
+  ...
+# Subtest: no inherited workflow is discoverable
+ok 69 - no inherited workflow is discoverable
+  ---
+  duration_ms: 2.973606
+  type: 'test'
+  ...
+# Subtest: deployment configuration has no upstream routing and excludes all legacy functions
+ok 70 - deployment configuration has no upstream routing and excludes all legacy functions
+  ---
+  duration_ms: 4.426443
+  type: 'test'
+  ...
+# Subtest: build fails closed without an explicit snapshot
+ok 71 - build fails closed without an explicit snapshot
+  ---
+  duration_ms: 228.619937
+  type: 'test'
+  ...
+# Subtest: synthetic demo and explicit artifact build deny all network transports
+ok 72 - synthetic demo and explicit artifact build deny all network transports
+  ---
+  duration_ms: 821.202656
+  type: 'test'
+  ...
+# Subtest: fixture exact IDs, evidence, applied defaults and honest counts
+ok 73 - fixture exact IDs, evidence, applied defaults and honest counts
+  ---
+  duration_ms: 9.943959
+  type: 'test'
+  ...
+# Subtest: option coherent pay with exact tuple, fresh range and explicit defaults
+ok 74 - option coherent pay with exact tuple, fresh range and explicit defaults
+  ---
+  duration_ms: 11.016825
+  type: 'test'
+  ...
+# Subtest: freshness, unknown opt-in and strict query/snapshot rejection
+ok 75 - freshness, unknown opt-in and strict query/snapshot rejection
+  ---
+  duration_ms: 11.098237
+  type: 'test'
+  ...
+# Subtest: location, workplace and pay filters must match the same option
+ok 76 - location, workplace and pay filters must match the same option
+  ---
+  duration_ms: 3.633879
+  type: 'test'
+  ...
+# Subtest: malformed pay cannot silently remove a requested compensation filter
+ok 77 - malformed pay cannot silently remove a requested compensation filter
+  ---
+  duration_ms: 2.089422
+  type: 'test'
+  ...
+# Subtest: empty and disabled registries remain inspectable without collection permission
+ok 78 - empty and disabled registries remain inspectable without collection permission
+  ---
+  duration_ms: 27.522915
+  type: 'test'
+  ...
+# Subtest: canonical board and allowed hosts bind exact provider, region and board
+ok 79 - canonical board and allowed hosts bind exact provider, region and board
+  ---
+  duration_ms: 6.610534
+  type: 'test'
+  ...
+# Subtest: collection requires current reviewed employer, ownership and permissions
+ok 80 - collection requires current reviewed employer, ownership and permissions
+  ---
+  duration_ms: 2.307579
+  type: 'test'
+  ...
+# Subtest: duplicate source identity rejects alternate IDs and stable identity is region-qualified
+ok 81 - duplicate source identity rejects alternate IDs and stable identity is region-qualified
+  ---
+  duration_ms: 1.235014
+  type: 'test'
+  ...
+1..81
+# tests 81
+# suites 0
+# pass 81
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2961.378551
