@@ -49,9 +49,12 @@
       "evidence_quality": {
         "direct_page_observation": false,
         "user_supplied_label": false,
-        "inferences": []
+        "inferences": [
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
+        ]
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "fal",
@@ -91,9 +94,12 @@
       "evidence_quality": {
         "direct_page_observation": false,
         "user_supplied_label": false,
-        "inferences": []
+        "inferences": [
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
+        ]
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "superhuman",
@@ -137,9 +143,12 @@
       "evidence_quality": {
         "direct_page_observation": false,
         "user_supplied_label": false,
-        "inferences": []
+        "inferences": [
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
+        ]
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "credencial",
@@ -179,9 +188,12 @@
       "evidence_quality": {
         "direct_page_observation": false,
         "user_supplied_label": false,
-        "inferences": []
+        "inferences": [
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
+        ]
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "talent-connect",
@@ -222,10 +234,12 @@
         "direct_page_observation": false,
         "user_supplied_label": false,
         "inferences": [
-          "URL slug contains hibrido-remoto; this is not exact posting workplace evidence."
+          "URL slug contains hibrido-remoto; this is not exact posting workplace evidence.",
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
         ]
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "blacksmith",
@@ -265,9 +279,12 @@
       "evidence_quality": {
         "direct_page_observation": false,
         "user_supplied_label": false,
-        "inferences": []
+        "inferences": [
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
+        ]
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "zs",
@@ -307,9 +324,12 @@
       "evidence_quality": {
         "direct_page_observation": false,
         "user_supplied_label": true,
-        "inferences": []
+        "inferences": [
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
+        ]
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "iol",
@@ -324,7 +344,7 @@
         "public_reference_url": "https://empleos.invertironline.com.ar/jobs/729309-jr-backend-developer-markets",
         "description": "Earlier same-session public-page research reported a direct observation on 2026-11-16. Original response not re-fetched in this contribution; current status unknown."
       },
-      "last_page_checked_at": "2026-11-16",
+      "last_page_checked_at": null,
       "current_open_status": null,
       "exact_location_workplace_wording": null,
       "eligibility_evidence": {
@@ -360,12 +380,15 @@
       "evidence_quality": {
         "direct_page_observation": false,
         "user_supplied_label": false,
-        "inferences": [],
+        "inferences": [
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
+        ],
         "prior_direct_observation_reported": true
       },
       "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
       "schedule_type": "full_time",
-      "qualification_notes": "Prior observation reported studying or nearing graduation; exact requirement text not retained."
+      "qualification_notes": "Prior observation reported studying or nearing graduation; exact requirement text not retained.",
+      "reported_prior_page_check_date": "2026-11-16"
     },
     {
       "id": "escalate-ops",
@@ -406,10 +429,12 @@
         "direct_page_observation": false,
         "user_supplied_label": true,
         "inferences": [
-          "Title normalized from URL slug; exact displayed title not recovered."
+          "Title normalized from URL slug; exact displayed title not recovered.",
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
         ]
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "linkedin-4471698371",
@@ -424,7 +449,7 @@
         "public_reference_url": "https://proofpoint.wd5.myworkdayjobs.com/ProofpointCareers/job/Argentina---Remote/Software-Engineer-III--Applied-Agentic-AI_R14757",
         "description": "Earlier same-session public-page research reported a direct observation on 2026-11-16. Original response not re-fetched in this contribution; current status unknown."
       },
-      "last_page_checked_at": "2026-11-16",
+      "last_page_checked_at": null,
       "current_open_status": null,
       "exact_location_workplace_wording": "Argentina – Remote",
       "eligibility_evidence": {
@@ -460,12 +485,15 @@
       "evidence_quality": {
         "direct_page_observation": false,
         "user_supplied_label": false,
-        "inferences": [],
+        "inferences": [
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
+        ],
         "prior_direct_observation_reported": true
       },
       "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
       "related_discovery_url": "https://www.linkedin.com/jobs/view/4471698371/",
-      "schedule_type": "full_time"
+      "schedule_type": "full_time",
+      "reported_prior_page_check_date": "2026-11-16"
     },
     {
       "id": "linkedin-4488917535",
@@ -480,7 +508,7 @@
         "public_reference_url": "https://www.linkedin.com/jobs/view/4488917535/",
         "description": "Earlier same-session public-page research reported a direct observation on 2026-11-16. Original response not re-fetched in this contribution; current status unknown."
       },
-      "last_page_checked_at": "2026-11-16",
+      "last_page_checked_at": null,
       "current_open_status": null,
       "exact_location_workplace_wording": null,
       "eligibility_evidence": {
@@ -516,10 +544,13 @@
       "evidence_quality": {
         "direct_page_observation": false,
         "user_supplied_label": false,
-        "inferences": [],
+        "inferences": [
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
+        ],
         "prior_direct_observation_reported": true
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": "2026-11-16"
     },
     {
       "id": "shortlink-1",
@@ -561,7 +592,8 @@
         "user_supplied_label": true,
         "inferences": []
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "shortlink-2",
@@ -576,7 +608,7 @@
         "public_reference_url": "https://jobs.ashbyhq.com/rain/482b165f-2ef9-41ff-8b88-87e7e6714dc8",
         "description": "Earlier same-session public-page research reported a direct observation on 2026-11-16. Original response not re-fetched in this contribution; current status unknown."
       },
-      "last_page_checked_at": "2026-11-16",
+      "last_page_checked_at": null,
       "current_open_status": null,
       "exact_location_workplace_wording": null,
       "eligibility_evidence": {
@@ -612,11 +644,14 @@
       "evidence_quality": {
         "direct_page_observation": false,
         "user_supplied_label": false,
-        "inferences": [],
+        "inferences": [
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
+        ],
         "prior_direct_observation_reported": true
       },
       "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
-      "related_discovery_url": "https://lnkd.in/gR5khd9M"
+      "related_discovery_url": "https://lnkd.in/gR5khd9M",
+      "reported_prior_page_check_date": "2026-11-16"
     },
     {
       "id": "shortlink-3",
@@ -658,7 +693,8 @@
         "user_supplied_label": true,
         "inferences": []
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "shortlink-4",
@@ -700,7 +736,8 @@
         "user_supplied_label": true,
         "inferences": []
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "shortlink-5",
@@ -742,7 +779,8 @@
         "user_supplied_label": true,
         "inferences": []
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "shortlink-6",
@@ -784,7 +822,8 @@
         "user_supplied_label": true,
         "inferences": []
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "shortlink-7",
@@ -826,7 +865,8 @@
         "user_supplied_label": true,
         "inferences": []
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "shortlink-8",
@@ -868,7 +908,8 @@
         "user_supplied_label": true,
         "inferences": []
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "shortlink-9",
@@ -910,7 +951,8 @@
         "user_supplied_label": true,
         "inferences": []
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "shortlink-10",
@@ -952,7 +994,8 @@
         "user_supplied_label": true,
         "inferences": []
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "shortlink-11",
@@ -994,7 +1037,8 @@
         "user_supplied_label": true,
         "inferences": []
       },
-      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "reported_prior_page_check_date": null
     },
     {
       "id": "shortlink-12",
@@ -1009,7 +1053,7 @@
         "public_reference_url": "https://job-boards.greenhouse.io/embed/job_app?for=mercury&token=6233238004",
         "description": "Earlier same-session public-page research reported a direct observation on 2026-11-16. Original response not re-fetched in this contribution; current status unknown."
       },
-      "last_page_checked_at": "2026-11-16",
+      "last_page_checked_at": null,
       "current_open_status": null,
       "exact_location_workplace_wording": null,
       "eligibility_evidence": {
@@ -1051,11 +1095,14 @@
       "evidence_quality": {
         "direct_page_observation": false,
         "user_supplied_label": false,
-        "inferences": [],
+        "inferences": [
+          "Provider ID is a candidate identifier derived from a historical URL, not independently verified against the provider or employer ownership chain."
+        ],
         "prior_direct_observation_reported": true
       },
       "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
-      "related_discovery_url": "https://lnkd.in/ghfG4bdE"
+      "related_discovery_url": "https://lnkd.in/ghfG4bdE",
+      "reported_prior_page_check_date": "2026-11-16"
     }
   ]
 }

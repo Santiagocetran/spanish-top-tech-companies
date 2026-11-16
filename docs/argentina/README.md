@@ -62,3 +62,11 @@ Audit/draft statements that no fork or publication had occurred describe the ear
 ## Provenance
 
 Forked from [pugarte7/spanish-top-tech-companies](https://github.com/pugarte7/spanish-top-tech-companies). Original code and data notices remain in [LICENSE](../../LICENSE) and [LICENSE-DATA](../../LICENSE-DATA). The Argentina plan does not relabel the upstream Spanish dataset or grant additional rights to third-party data.
+
+## Historical source research
+
+[Chewie’s research handoff](CHEWIE_HANDOFF.md) contains 12 source candidates and
+23 historical job leads. These separate research artifacts are not runtime inputs,
+approved sources or current openings. Reported historical checks do not refresh
+job lifecycle clocks. Start with CodeRoad for a bounded Greenhouse ownership and
+permission review; no source activation is authorized by this contribution.

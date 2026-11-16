@@ -29,6 +29,11 @@ Recovered evidence has three classes:
    not newly fetched page evidence. Only one short location quote is retained;
    other conditions are paraphrased and exact-wording fields stay null.
 
+Reported historical check dates are stored as `reported_prior_page_check_date`;
+`last_page_checked_at` remains null because no page was directly verified here.
+Job `provider_id` values are URL-derived candidate identifiers, with explicit
+inference notes; they must not become runtime identities without verification.
+
 Provider names/tokens and board roots derived from URL structure are explicitly
 marked as inferences. Corporate-to-board ownership evidence, exact location and
 workplace wording, current availability, permission and compensation fields remain
