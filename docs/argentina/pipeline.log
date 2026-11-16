@@ -1,0 +1,183 @@
+data-scientist: feed answer unreadable (JSONDecodeError)
+    broken: unreadable, left untouched
+offers.csv: one row per posting and range, first and last day seen
+  pass  only postings that state pay
+  pass  seen again moves last_seen only
+  pass  a new range opens a new row
+  pass  a carried-over board is not a sighting
+  pass  an older index never moves last_seen back
+data/ is the same whatever the hash seed
+  pass  four seeds, one order of cells and tables
+validate.py rejects data that cannot prove it is a Spanish salary
+  pass  unscoped company page is rejected
+  pass  country job-family page is rejected
+  pass  another job family is rejected
+  pass  per-location software-engineer page is accepted
+  pass  a data-scientist row cites the data-scientist page
+  pass  first-hand source needs no location
+fetch_spain.unscoped() reads the URL, not the notes
+  pass  unscoped company page
+  pass  per-location page
+  pass  unscoped despite notes 'Median across all levels.'
+  pass  unscoped despite notes 'Common Range Average across all levels.'
+fetch_spain.write_role() drops foreign entries beside a Spanish one
+  pass  only the Spanish entry survives
+  pass  a first-hand entry is left alone
+fetch_spain converts USD to EUR
+  pass  Glovo's published euro figure
+  pass  a euro submission uses its own rate
+  pass  a dollar submission goes through the rate given
+  pass  and is marked as paid in dollars
+  pass  a dollar submission with no euro rate is dropped, not guessed
+  pass  a dollar row converts at the euro rows' rate of its own month
+  pass  a feed with no euro rows prices nothing
+fetch_spain keeps every year of experience; engineer_entries filters roles
+  pass  every parseable year becomes a row, 'False' levels do not
+  pass  a row with no years is skipped
+  pass  the median counts software engineers at any experience
+  pass  and no other role
+  pass  a bucket counts from its low end
+  pass  an open bucket counts from its number
+  pass  validate.py keeps under five years is data now
+  pass  validate.py rejects no years
+  pass  validate.py rejects a first-hand senior SWE under 60k
+  pass  validate.py rejects a first-hand junior SWE under 60k
+  pass  validate.py keeps a first-hand junior PM under 60k
+  pass  validate.py keeps a Levels.fyi entry under 60k
+fetch_spain lists a submission once
+  pass  one entry, at the submission's own rate
+  pass  the repeat counted as a duplicate
+  pass  uuid-less rows dedupe on their facts
+fetch_spain asks the world about small companies
+  pass  one submission in the world, over every role, drops the company
+  pass  three engineers and three product managers are six people
+  pass  the first-hand row stays when the Levels.fyi one goes
+  pass  a stale or missing answer judges nothing
+  pass  five Spanish rows are five submissions
+  pass  the feed's domain becomes the website of a company without one
+  pass  a website on file is never overwritten
+fetch_spain skips a submission from outside Spain
+  pass  only the Spanish submission survives
+  pass  the foreign one is counted
+fetch_spain pages the feed until an empty answer
+  pass  pages until the empty one, ignoring the lying total
+  pass  the offset walked by page size, not by new rows
+  pass  a page that fails to load makes the feed unread
+  pass  a page that does not parse makes the feed unread
+  pass  a query of one offer date past the ceiling is truncated
+  pass  no offset past the ceiling is asked for
+fetch_spain reads past the offset ceiling from the last date seen
+  pass  every row is read, the ones past the ceiling included
+  pass  the second query starts a second before the last date seen
+  pass  an ISO offerDate works as a cursor too
+  pass  a row without a date gives no cursor
+  pass  an encrypted answer is decoded
+  pass  rows naming no employer or another family are skipped
+fetch_spain falls back to company by company when the cursor is stuck
+  software-engineer: one offer date past the offset ceiling; reading 3 companies one by one
+  pass  the feed's employers and companies on file are read; others are not
+  pass  the per-company rows are kept
+  software-engineer: one offer date past the offset ceiling; reading 1 companies one by one
+  pass  a company asked for by name is read on its own, even off file
+  pass  an empty scope writes nothing
+  pass  a feed read whole is unscoped
+a role whose feed cannot be read is left untouched
+
+roles read: 0, unreadable: 1
+
+Data source: Levels.fyi (https://www.levels.fyi)
+Next: python3 scripts/validate.py && python3 scripts/site.py --refresh
+  pass  unreadable feed: write_role never called
+  software-engineer: no Spanish submissions
+
+roles read: 0, unreadable: 0
+
+Data source: Levels.fyi (https://www.levels.fyi)
+Next: python3 scripts/validate.py && python3 scripts/site.py --refresh
+  pass  an empty feed is a real answer and wipes the role's rows
+a company is kept while it has any salary, dropped at zero
+  pass  a median under the floor stays on file
+  pass  a company whose feed emptied is dropped
+  pass  a first-hand entry keeps it
+  pass  nothing read, nothing created
+  pass  a feed employer not on file is created
+  pass  a same-name company with no Levels.fyi slug takes the feed's rows
+  pass  a same-name company under another Levels.fyi slug still refuses
+  pass  validate.py refuses an empty row
+  pass  validate.py keeps rows all under 50k
+  pass  validate.py keeps a median at 60k+
+  pass  excluded rows never reach write_role
+  pass  a struck-off slug is never written or created
+  pass  and a first-hand row elsewhere is untouched
+fetch_spain compares rows whose cells are empty in some, filled in others
+  pass  same rows, any order, compare equal
+  pass  an unchanged role counts as unchanged
+the median is over every engineer, juniors included, other roles never
+  pass  median over all engineers, not the mean of the 60k+ ones
+  pass  and a company with that median is not at the bar
+  pass  juniors reach the median, other roles never do
+published aggregates cannot be turned back into salaries
+  pass  Madrid's ten: median and quartiles, rounded to 1,000
+  pass  Valencia's five: median and quartiles too
+  pass  Barcelona's four give nothing
+  pass  no published group under five
+  pass  every published euro figure is a multiple of 1,000
+  pass  years are bucketed
+  pass  a company's groups leave Barcelona out
+  pass  llms-full.txt renders
+the companies table goes down to one person
+  pass  one person's band has rounded medians of base and total, empty bands none
+  pass  a company row carries its total's middle half and 60k+ share
+  pass  the table filtered to that band lists the company with one salary
+  pass  a company with two salaries is listed, after one with three or more whatever the median
+  pass  but data.json has no group of it
+  pass  the MCP's copy keys the table's rows like data.json, in the table's order
+  pass  with one person's band, and a region from its place file
+  pass  every MCP row is a row of the page's files
+  pass  a company with no LinkedIn and no website is on no table and in no group (maintainer, 2026-11-01: unverified)
+  pass  review.py lists it for the maintainer, with a count and no salary
+location files are a lookup on the role's file
+  pass  Acme, all in Madrid, is whole
+  pass  Beta keeps its own Madrid row
+  pass  Madrid the city is Madrid the region, so it has no file
+  pass  and the menu points it at the region's
+  pass  regions by salaries
+boards.json tiers companies by the site's ranking
+  pass  one entry per company with a board, as lib/ats reads them
+  pass  in its list format
+site dates and the minimum base
+  pass  the 1,000 EUR base is left out
+  pass  the date is the latest read of a counted salary
+  pass  reported months: first, last and median
+  pass  llms.txt says when
+floor, alias slugs and struck-off slugs
+  pass  a median at 60k+ is at the bar
+  pass  under the floor is not listed
+  pass  at the floor is listed but not competitive
+  pass  alias rows join the canonical company with their own page URL
+  pass  validate.py refuses an alias slug's own row group
+  pass  validate.py refuses a struck-off slug
+locations, titles and specializations normalize
+  pass  a Levels.fyi location splits
+  pass  a radar-style region name maps to its code
+  pass  a misspelled city is fixed  Same Name: 2 radar companies share the name; leaving unmatched
+
+  pass  a bare city has no region
+  pass  seniority words are stripped for the title lookup
+  pass  a developer spelling maps to the catalog's engineer
+  pass  an abbreviation expands
+  pass  the family's own name is not a title worth storing
+  pass  an invented title stays empty
+  pass  a displayValue matches its slug
+  pass  a sub-tag maps to its parent
+  pass  the family's own name is its generic bucket
+  pass  an unsalvageable focus stays empty
+  pass  a known title backfills an empty focusTag
+  pass  a feed row becomes a normalized entry
+fetch_radar matches and fills without overwriting
+  pass  a radar company maps to our columns
+  pass  empty fields are filled
+  pass  hand-set values are never overwritten, '-' included
+  pass  domain wins; ambiguous names and salary-less companies are skipped
+
+all checks passed

@@ -1,5 +1,7 @@
 # Spanish Top Tech Companies: MCP for tech jobs and salaries in Spain
 
+> **Argentina fork — planning stage.** The [audited implementation plan](docs/argentina/README.md) covers positions in Argentina and remote work from Argentina. Implementation has not started; the code, data and service links below still refer to the original Spain-focused project. GitHub Actions is disabled on this fork.
+
 <div align="center"><img alt="CI" src="https://github.com/pugarte7/spanish-top-tech-companies/actions/workflows/ci.yml/badge.svg"><img alt="Version" src="https://img.shields.io/github/v/release/pugarte7/spanish-top-tech-companies?label=version"><img alt="MCP" src="https://img.shields.io/badge/MCP-spanishtoptechcompanies.com%2Fmcp-2b5cff"><img alt="Code licence: MIT" src="https://img.shields.io/badge/code-MIT-blue"><img alt="Data licence: CC BY-SA 4.0" src="https://img.shields.io/badge/data-CC%20BY--SA%204.0-lightgrey"><img alt="Language" src="https://img.shields.io/github/languages/top/pugarte7/spanish-top-tech-companies"></div>
 
 <p align="center">
