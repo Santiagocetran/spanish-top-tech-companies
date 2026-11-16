@@ -1,0 +1,1061 @@
+{
+  "research_schema_version": "chewie-research-1",
+  "compiled_at": "2026-11-16",
+  "base_revision": "7855dcce8ed0f1323dac27ac98a117395b749520",
+  "status": "research_only",
+  "not_import_ready": true,
+  "live_requests_performed": false,
+  "notes": [
+    "Unknown values are null. Saved-reference dates are not page verification dates.",
+    "No record asserts current availability or approved source permissions.",
+    "Private messages, personal application data and compensation preferences are excluded."
+  ],
+  "job_leads": [
+    {
+      "id": "coderoad",
+      "status": "research_only",
+      "employer": "CodeRoad",
+      "title": "Fullstack Developer, Python/React",
+      "url": "https://job-boards.greenhouse.io/coderoad/jobs/4458046009",
+      "provider_id": "4458046009",
+      "observation_date": "2026-11-09",
+      "observation_kind": "saved_reference",
+      "source_of_observation": {
+        "public_reference_url": "https://job-boards.greenhouse.io/coderoad/jobs/4458046009",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Recoverable technical-role discovery reference; current availability and Argentina scope require source review.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": false,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "fal",
+      "status": "research_only",
+      "employer": "fal",
+      "title": "Software Engineer, Distributed Systems",
+      "url": "https://jobs.ashbyhq.com/fal-ai/0acf2909-a4c4-4ad5-a0fb-61fba66eb89e",
+      "provider_id": "0acf2909-a4c4-4ad5-a0fb-61fba66eb89e",
+      "observation_date": "2026-11-09",
+      "observation_kind": "saved_reference",
+      "source_of_observation": {
+        "public_reference_url": "https://jobs.ashbyhq.com/fal-ai/0acf2909-a4c4-4ad5-a0fb-61fba66eb89e",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Recoverable technical-role discovery reference; current availability and Argentina scope require source review.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": false,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "superhuman",
+      "status": "research_only",
+      "employer": "Superhuman",
+      "title": "AI Engineer (Superhuman Mail) - Latin America",
+      "url": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/b10a5c44-00a5-4887-879f-05c795d5660b",
+      "provider_id": "b10a5c44-00a5-4887-879f-05c795d5660b",
+      "observation_date": "2026-11-09",
+      "observation_kind": "saved_reference",
+      "source_of_observation": {
+        "public_reference_url": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/b10a5c44-00a5-4887-879f-05c795d5660b",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": {
+        "text": "Latin America",
+        "scope": "saved_title",
+        "interpretation": "Broad regional title signal only; not Argentina confirmation and no posting restrictions recovered."
+      },
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Recoverable technical-role discovery reference; current availability and Argentina scope require source review.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": false,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "credencial",
+      "status": "research_only",
+      "employer": "Credencial Payments",
+      "title": "Semi Senior Backend Developer",
+      "url": "https://credencialargentina.hiringroom.com/jobs/get_vacancy/6aa4085675d777345376716f",
+      "provider_id": "6aa4085675d777345376716f",
+      "observation_date": "2026-11-09",
+      "observation_kind": "saved_reference",
+      "source_of_observation": {
+        "public_reference_url": "https://credencialargentina.hiringroom.com/jobs/get_vacancy/6aa4085675d777345376716f",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Recoverable technical-role discovery reference; current availability and Argentina scope require source review.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": false,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "talent-connect",
+      "status": "research_only",
+      "employer": "Talent Connect",
+      "title": "Python Developer SSR/SR FastAPI/Fintech",
+      "url": "https://jobs.talentconnect.ai/jobs/609821-python-developer-ssr-sr-fastapi-fintech-hibrido-remoto",
+      "provider_id": "609821",
+      "observation_date": "2026-11-09",
+      "observation_kind": "saved_reference",
+      "source_of_observation": {
+        "public_reference_url": "https://jobs.talentconnect.ai/jobs/609821-python-developer-ssr-sr-fastapi-fintech-hibrido-remoto",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Recoverable technical-role discovery reference; current availability and Argentina scope require source review.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": false,
+        "inferences": [
+          "URL slug contains hibrido-remoto; this is not exact posting workplace evidence."
+        ]
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "blacksmith",
+      "status": "research_only",
+      "employer": "Blacksmith Agency",
+      "title": "AI Engineer",
+      "url": "https://jobs.ashbyhq.com/Blacksmith%20Agency/5dfccfc8-a527-44b9-b3ec-eaee25fc3f0f",
+      "provider_id": "5dfccfc8-a527-44b9-b3ec-eaee25fc3f0f",
+      "observation_date": "2026-11-09",
+      "observation_kind": "saved_reference",
+      "source_of_observation": {
+        "public_reference_url": "https://jobs.ashbyhq.com/Blacksmith%20Agency/5dfccfc8-a527-44b9-b3ec-eaee25fc3f0f",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Recoverable technical-role discovery reference; current availability and Argentina scope require source review.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": false,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "zs",
+      "status": "research_only",
+      "employer": "ZS",
+      "title": null,
+      "url": "https://jobs.zs.com/jobs/69499",
+      "provider_id": "69499",
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://jobs.zs.com/jobs/69499",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Recoverable technical-role discovery reference; current availability and Argentina scope require source review.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "iol",
+      "status": "research_only",
+      "employer": "IOL",
+      "title": "Jr Backend Developer Markets",
+      "url": "https://empleos.invertironline.com.ar/jobs/729309-jr-backend-developer-markets",
+      "provider_id": "729309",
+      "observation_date": "2026-11-16",
+      "observation_kind": "reported_prior_direct_observation",
+      "source_of_observation": {
+        "public_reference_url": "https://empleos.invertironline.com.ar/jobs/729309-jr-backend-developer-markets",
+        "description": "Earlier same-session public-page research reported a direct observation on 2026-11-16. Original response not re-fetched in this contribution; current status unknown."
+      },
+      "last_page_checked_at": "2026-11-16",
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": {
+        "text": null,
+        "scope": "prior_posting_observation",
+        "interpretation": "Promising local example: prior observation reports hybrid Palermo and full-time. No exact location quote retained; not current-verified."
+      },
+      "argentina_eligibility": "historically_local_not_reverified",
+      "location_options": [
+        {
+          "location": "Palermo, Buenos Aires, Argentina",
+          "workplace": "hybrid",
+          "compensation": null,
+          "work_authorization": null
+        }
+      ],
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Promising local example: prior observation reports hybrid Palermo and full-time. No exact location quote retained; not current-verified.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": false,
+        "inferences": [],
+        "prior_direct_observation_reported": true
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "schedule_type": "full_time",
+      "qualification_notes": "Prior observation reported studying or nearing graduation; exact requirement text not retained."
+    },
+    {
+      "id": "escalate-ops",
+      "status": "research_only",
+      "employer": "Escalate Ops",
+      "title": "Implementation Engineer Jr Ssr",
+      "url": "https://escalateops.zohorecruit.com/jobs/Careers/842437000001775001/Implementation-Engineer-Jr-Ssr",
+      "provider_id": "842437000001775001",
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://escalateops.zohorecruit.com/jobs/Careers/842437000001775001/Implementation-Engineer-Jr-Ssr",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Recoverable technical-role discovery reference; current availability and Argentina scope require source review.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": [
+          "Title normalized from URL slug; exact displayed title not recovered."
+        ]
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "linkedin-4471698371",
+      "status": "research_only",
+      "employer": "Proofpoint",
+      "title": "Software Engineer III, Applied Agentic AI",
+      "url": "https://proofpoint.wd5.myworkdayjobs.com/ProofpointCareers/job/Argentina---Remote/Software-Engineer-III--Applied-Agentic-AI_R14757",
+      "provider_id": "R14757",
+      "observation_date": "2026-11-16",
+      "observation_kind": "reported_prior_direct_observation",
+      "source_of_observation": {
+        "public_reference_url": "https://proofpoint.wd5.myworkdayjobs.com/ProofpointCareers/job/Argentina---Remote/Software-Engineer-III--Applied-Agentic-AI_R14757",
+        "description": "Earlier same-session public-page research reported a direct observation on 2026-11-16. Original response not re-fetched in this contribution; current status unknown."
+      },
+      "last_page_checked_at": "2026-11-16",
+      "current_open_status": null,
+      "exact_location_workplace_wording": "Argentina – Remote",
+      "eligibility_evidence": {
+        "text": "Argentina – Remote",
+        "scope": "prior_posting_observation",
+        "interpretation": "Promising: prior posting observation explicitly names Argentina remote. Requires current verification; not an approved or current-open record."
+      },
+      "argentina_eligibility": "historically_explicit_not_reverified",
+      "location_options": [
+        {
+          "location": "Argentina",
+          "workplace": "remote",
+          "compensation": null,
+          "work_authorization": null
+        }
+      ],
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Promising: prior posting observation explicitly names Argentina remote. Requires current verification; not an approved or current-open record.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": false,
+        "inferences": [],
+        "prior_direct_observation_reported": true
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "related_discovery_url": "https://www.linkedin.com/jobs/view/4471698371/",
+      "schedule_type": "full_time"
+    },
+    {
+      "id": "linkedin-4488917535",
+      "status": "research_only",
+      "employer": "Plexus Tech",
+      "title": "Mid-Senior Big Data Developer AWS",
+      "url": "https://www.linkedin.com/jobs/view/4488917535/",
+      "provider_id": "4488917535",
+      "observation_date": "2026-11-16",
+      "observation_kind": "reported_prior_direct_observation",
+      "source_of_observation": {
+        "public_reference_url": "https://www.linkedin.com/jobs/view/4488917535/",
+        "description": "Earlier same-session public-page research reported a direct observation on 2026-11-16. Original response not re-fetched in this contribution; current status unknown."
+      },
+      "last_page_checked_at": "2026-11-16",
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": {
+        "text": null,
+        "scope": "prior_posting_observation",
+        "interpretation": "Excluded from Argentina shortlist by prior review: remote was limited to within Spain. Paraphrase of earlier observation, not a retained exact quotation; recheck before classifying operational data."
+      },
+      "argentina_eligibility": "historically_excluded_not_reverified",
+      "location_options": [
+        {
+          "location": "Spain",
+          "workplace": "remote",
+          "compensation": null,
+          "work_authorization": null
+        }
+      ],
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": "Prior observation reports remote within Spain; exact clause not retained.",
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Excluded from Argentina shortlist by prior review: remote was limited to within Spain. Paraphrase of earlier observation, not a retained exact quotation; recheck before classifying operational data.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": false,
+        "inferences": [],
+        "prior_direct_observation_reported": true
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "shortlink-1",
+      "status": "research_only",
+      "employer": "Hive",
+      "title": "Software Engineer",
+      "url": "https://lnkd.in/gUn9nR_N",
+      "provider_id": null,
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://lnkd.in/gUn9nR_N",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Unresolved shortlink with supplied employer/title labels. Excluded from eligibility evaluation, not evidence of geographic exclusion.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "shortlink-2",
+      "status": "research_only",
+      "employer": "Rain",
+      "title": "Backend Engineer",
+      "url": "https://jobs.ashbyhq.com/rain/482b165f-2ef9-41ff-8b88-87e7e6714dc8",
+      "provider_id": "482b165f-2ef9-41ff-8b88-87e7e6714dc8",
+      "observation_date": "2026-11-16",
+      "observation_kind": "reported_prior_direct_observation",
+      "source_of_observation": {
+        "public_reference_url": "https://jobs.ashbyhq.com/rain/482b165f-2ef9-41ff-8b88-87e7e6714dc8",
+        "description": "Earlier same-session public-page research reported a direct observation on 2026-11-16. Original response not re-fetched in this contribution; current status unknown."
+      },
+      "last_page_checked_at": "2026-11-16",
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": {
+        "text": null,
+        "scope": "prior_posting_observation",
+        "interpretation": "Prior role metadata reported New York onsite despite flexible generic benefits. Do not promote company benefits to remote Argentina job evidence."
+      },
+      "argentina_eligibility": "historically_foreign_onsite_not_reverified",
+      "location_options": [
+        {
+          "location": "New York, United States",
+          "workplace": "onsite",
+          "compensation": null,
+          "work_authorization": null
+        }
+      ],
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Prior role metadata reported New York onsite despite flexible generic benefits. Do not promote company benefits to remote Argentina job evidence.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": false,
+        "inferences": [],
+        "prior_direct_observation_reported": true
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "related_discovery_url": "https://lnkd.in/gR5khd9M"
+    },
+    {
+      "id": "shortlink-3",
+      "status": "research_only",
+      "employer": "Mercury",
+      "title": "Software Engineer",
+      "url": "https://lnkd.in/g_dzaiZM",
+      "provider_id": null,
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://lnkd.in/g_dzaiZM",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Unresolved shortlink with supplied employer/title labels. Excluded from eligibility evaluation, not evidence of geographic exclusion.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "shortlink-4",
+      "status": "research_only",
+      "employer": "Blackbaud",
+      "title": "Software Engineer",
+      "url": "https://lnkd.in/g9WFpJnT",
+      "provider_id": null,
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://lnkd.in/g9WFpJnT",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Unresolved shortlink with supplied employer/title labels. Excluded from eligibility evaluation, not evidence of geographic exclusion.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "shortlink-5",
+      "status": "research_only",
+      "employer": "Netic",
+      "title": "Software Engineer",
+      "url": "https://lnkd.in/gG-A7MDw",
+      "provider_id": null,
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://lnkd.in/gG-A7MDw",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Unresolved shortlink with supplied employer/title labels. Excluded from eligibility evaluation, not evidence of geographic exclusion.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "shortlink-6",
+      "status": "research_only",
+      "employer": "Simplot Company",
+      "title": "Full Stack Developer",
+      "url": "https://lnkd.in/g2tAz6gm",
+      "provider_id": null,
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://lnkd.in/g2tAz6gm",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Unresolved shortlink with supplied employer/title labels. Excluded from eligibility evaluation, not evidence of geographic exclusion.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "shortlink-7",
+      "status": "research_only",
+      "employer": "Chime",
+      "title": "Software Engineer",
+      "url": "https://lnkd.in/gx7MU-ff",
+      "provider_id": null,
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://lnkd.in/gx7MU-ff",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Unresolved shortlink with supplied employer/title labels. Excluded from eligibility evaluation, not evidence of geographic exclusion.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "shortlink-8",
+      "status": "research_only",
+      "employer": "Harmonic",
+      "title": "Software Engineer",
+      "url": "https://lnkd.in/gzKQZ6ij",
+      "provider_id": null,
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://lnkd.in/gzKQZ6ij",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Unresolved shortlink with supplied employer/title labels. Excluded from eligibility evaluation, not evidence of geographic exclusion.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "shortlink-9",
+      "status": "research_only",
+      "employer": "Shinkei",
+      "title": "Full Stack Software Engineer",
+      "url": "https://lnkd.in/g7xJtwH2",
+      "provider_id": null,
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://lnkd.in/g7xJtwH2",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Unresolved shortlink with supplied employer/title labels. Excluded from eligibility evaluation, not evidence of geographic exclusion.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "shortlink-10",
+      "status": "research_only",
+      "employer": "Leader Bank",
+      "title": "Software Engineer",
+      "url": "https://lnkd.in/g_-tnCxg",
+      "provider_id": null,
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://lnkd.in/g_-tnCxg",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Unresolved shortlink with supplied employer/title labels. Excluded from eligibility evaluation, not evidence of geographic exclusion.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "shortlink-11",
+      "status": "research_only",
+      "employer": "Chime",
+      "title": "Software Engineer",
+      "url": "https://lnkd.in/gQxyBNkA",
+      "provider_id": null,
+      "observation_date": null,
+      "observation_kind": "user_supplied_public_link",
+      "source_of_observation": {
+        "public_reference_url": "https://lnkd.in/gQxyBNkA",
+        "description": "Historical saved public-source reference, not a page fetched during this contribution."
+      },
+      "last_page_checked_at": null,
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": null,
+      "argentina_eligibility": "unknown",
+      "location_options": null,
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": null,
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Unresolved shortlink with supplied employer/title labels. Excluded from eligibility evaluation, not evidence of geographic exclusion.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": true,
+        "inferences": []
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record."
+    },
+    {
+      "id": "shortlink-12",
+      "status": "research_only",
+      "employer": "Mercury",
+      "title": "Software Engineer, Mercury Command",
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=mercury&token=6233238004",
+      "provider_id": "6233238004",
+      "observation_date": "2026-11-16",
+      "observation_kind": "reported_prior_direct_observation",
+      "source_of_observation": {
+        "public_reference_url": "https://job-boards.greenhouse.io/embed/job_app?for=mercury&token=6233238004",
+        "description": "Earlier same-session public-page research reported a direct observation on 2026-11-16. Original response not re-fetched in this contribution; current status unknown."
+      },
+      "last_page_checked_at": "2026-11-16",
+      "current_open_status": null,
+      "exact_location_workplace_wording": null,
+      "eligibility_evidence": {
+        "text": null,
+        "scope": "prior_posting_observation",
+        "interpretation": "Excluded from Argentina shortlist by prior review: remote US or Canada only. Retain separate geographic options and unknown pay; not a current eligibility verdict."
+      },
+      "argentina_eligibility": "historically_excluded_not_reverified",
+      "location_options": [
+        {
+          "location": "United States",
+          "workplace": "remote",
+          "compensation": null,
+          "work_authorization": null
+        },
+        {
+          "location": "Canada",
+          "workplace": "remote",
+          "compensation": null,
+          "work_authorization": null
+        }
+      ],
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "component": null,
+        "gross_net_basis": null,
+        "geographic_scope": null
+      },
+      "restrictions": {
+        "residence": "Prior observation reports remote US or Canada only.",
+        "work_authorization": null,
+        "office_attendance": null,
+        "travel": null
+      },
+      "consideration_reason": "Excluded from Argentina shortlist by prior review: remote US or Canada only. Retain separate geographic options and unknown pay; not a current eligibility verdict.",
+      "evidence_quality": {
+        "direct_page_observation": false,
+        "user_supplied_label": false,
+        "inferences": [],
+        "prior_direct_observation_reported": true
+      },
+      "next_verification_step": "Read the canonical public posting after permission/scope review; record employer ownership, exact country and workplace restrictions, dates and scoped pay. Do not import this record.",
+      "related_discovery_url": "https://lnkd.in/ghfG4bdE"
+    }
+  ]
+}

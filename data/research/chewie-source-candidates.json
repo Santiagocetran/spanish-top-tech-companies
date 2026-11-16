@@ -1,0 +1,361 @@
+{
+  "research_schema_version": "chewie-research-1",
+  "compiled_at": "2026-11-16",
+  "base_revision": "7855dcce8ed0f1323dac27ac98a117395b749520",
+  "status": "research_only",
+  "not_import_ready": true,
+  "live_requests_performed": false,
+  "notes": [
+    "Unknown values are null. Saved-reference dates are not page verification dates.",
+    "No record asserts current availability or approved source permissions.",
+    "Private messages, personal application data and compensation preferences are excluded."
+  ],
+  "source_candidates": [
+    {
+      "id": "coderoad",
+      "employer_name": "CodeRoad",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": "Greenhouse",
+      "board_url": "https://job-boards.greenhouse.io/coderoad",
+      "board_token": "coderoad",
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://job-boards.greenhouse.io/coderoad/jobs/4458046009"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": "2026-11-09",
+      "potential_argentina_relevance": "Unknown: retained as a technical-job source candidate, not evidence of Argentina hiring.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "saved_reference",
+      "inferences": [
+        "Provider and board identifier inferred from saved URL structure; corporate ownership chain not verified.",
+        "Board URL derived from posting path; not fetched or ownership-verified."
+      ],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Posting-specific Argentina eligibility not established."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    },
+    {
+      "id": "fal",
+      "employer_name": "fal",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": "Ashby",
+      "board_url": "https://jobs.ashbyhq.com/fal-ai",
+      "board_token": "fal-ai",
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/fal-ai/0acf2909-a4c4-4ad5-a0fb-61fba66eb89e"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": "2026-11-09",
+      "potential_argentina_relevance": "Unknown: retained as a technical-job source candidate, not evidence of Argentina hiring.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "saved_reference",
+      "inferences": [
+        "Provider and board identifier inferred from saved URL structure; corporate ownership chain not verified.",
+        "Board URL derived from posting path; not fetched or ownership-verified."
+      ],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Posting-specific Argentina eligibility not established."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    },
+    {
+      "id": "superhuman",
+      "employer_name": "Superhuman",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": "Ashby",
+      "board_url": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc",
+      "board_token": "Superhuman Platform Inc",
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/b10a5c44-00a5-4887-879f-05c795d5660b"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": "2026-11-09",
+      "potential_argentina_relevance": "Broad Latin America title signal; country-specific restrictions unknown.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "saved_reference",
+      "inferences": [
+        "Provider and board identifier inferred from saved URL structure; corporate ownership chain not verified.",
+        "Board URL derived from posting path; not fetched or ownership-verified."
+      ],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Posting-specific Argentina eligibility not established."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    },
+    {
+      "id": "credencial",
+      "employer_name": "Credencial Payments",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": "Hiringroom",
+      "board_url": null,
+      "board_token": "credencialargentina",
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://credencialargentina.hiringroom.com/jobs/get_vacancy/6aa4085675d777345376716f"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": "2026-11-09",
+      "potential_argentina_relevance": "Unknown: retained as a technical-job source candidate, not evidence of Argentina hiring.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "saved_reference",
+      "inferences": [
+        "Provider and board identifier inferred from saved URL structure; corporate ownership chain not verified."
+      ],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Posting-specific Argentina eligibility not established."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    },
+    {
+      "id": "talent-connect",
+      "employer_name": "Talent Connect",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": null,
+      "board_url": null,
+      "board_token": null,
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://jobs.talentconnect.ai/jobs/609821-python-developer-ssr-sr-fastapi-fintech-hibrido-remoto"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": "2026-11-09",
+      "potential_argentina_relevance": "Unknown: retained as a technical-job source candidate, not evidence of Argentina hiring.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "saved_reference",
+      "inferences": [],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Posting-specific Argentina eligibility not established."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    },
+    {
+      "id": "blacksmith",
+      "employer_name": "Blacksmith Agency",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": "Ashby",
+      "board_url": "https://jobs.ashbyhq.com/Blacksmith%20Agency",
+      "board_token": "Blacksmith Agency",
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/Blacksmith%20Agency/5dfccfc8-a527-44b9-b3ec-eaee25fc3f0f"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": "2026-11-09",
+      "potential_argentina_relevance": "Unknown: retained as a technical-job source candidate, not evidence of Argentina hiring.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "saved_reference",
+      "inferences": [
+        "Provider and board identifier inferred from saved URL structure; corporate ownership chain not verified.",
+        "Board URL derived from posting path; not fetched or ownership-verified."
+      ],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Posting-specific Argentina eligibility not established."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    },
+    {
+      "id": "zs",
+      "employer_name": "ZS",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": null,
+      "board_url": null,
+      "board_token": null,
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://jobs.zs.com/jobs/69499"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": null,
+      "potential_argentina_relevance": "Unknown: retained as a technical-job source candidate, not evidence of Argentina hiring.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "user_supplied_public_link",
+      "inferences": [],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Posting-specific Argentina eligibility not established."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    },
+    {
+      "id": "iol",
+      "employer_name": "IOL",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": null,
+      "board_url": null,
+      "board_token": null,
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://empleos.invertironline.com.ar/jobs/729309-jr-backend-developer-markets"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": null,
+      "potential_argentina_relevance": "Prior 2026-11-16 posting observation reported hybrid Palermo, Buenos Aires. Current scope not reverified.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "reported_prior_direct_observation",
+      "inferences": [],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Current posting-specific Argentina scope not reverified."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    },
+    {
+      "id": "escalate-ops",
+      "employer_name": "Escalate Ops",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": "Zoho Recruit",
+      "board_url": null,
+      "board_token": "escalateops/Careers",
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://escalateops.zohorecruit.com/jobs/Careers/842437000001775001/Implementation-Engineer-Jr-Ssr"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": null,
+      "potential_argentina_relevance": "Unknown: retained as a technical-job source candidate, not evidence of Argentina hiring.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "user_supplied_public_link",
+      "inferences": [
+        "Provider and board identifier inferred from saved URL structure; corporate ownership chain not verified."
+      ],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Posting-specific Argentina eligibility not established."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    },
+    {
+      "id": "proofpoint",
+      "employer_name": "Proofpoint",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": "Workday",
+      "board_url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/ProofpointCareers",
+      "board_token": "ProofpointCareers",
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://proofpoint.wd5.myworkdayjobs.com/ProofpointCareers/job/Argentina---Remote/Software-Engineer-III--Applied-Agentic-AI_R14757"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": null,
+      "potential_argentina_relevance": "Promising: prior posting observation explicitly names Argentina remote. Requires current verification; not an approved or current-open record.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "reported_prior_direct_observation",
+      "inferences": [
+        "Provider/board identity derived from prior posting URL. Employer-owned corporate-to-board chain not recovered. Board itself not verified."
+      ],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Posting-specific Argentina eligibility not established."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    },
+    {
+      "id": "rain",
+      "employer_name": "Rain",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": "Ashby",
+      "board_url": "https://jobs.ashbyhq.com/rain",
+      "board_token": "rain",
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/rain/482b165f-2ef9-41ff-8b88-87e7e6714dc8"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": null,
+      "potential_argentina_relevance": "Prior role metadata reported New York onsite despite flexible generic benefits. Do not promote company benefits to remote Argentina job evidence.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "reported_prior_direct_observation",
+      "inferences": [
+        "Provider/board identity derived from prior posting URL. Employer-owned corporate-to-board chain not recovered. Board itself not verified."
+      ],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Posting-specific Argentina eligibility not established."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    },
+    {
+      "id": "mercury",
+      "employer_name": "Mercury",
+      "status": "research_only",
+      "official_website": null,
+      "careers_url": null,
+      "ats_type": "Greenhouse",
+      "board_url": "https://job-boards.greenhouse.io/mercury",
+      "board_token": "mercury",
+      "ownership_evidence_urls": null,
+      "discovery_urls": [
+        "https://job-boards.greenhouse.io/embed/job_app?for=mercury&token=6233238004"
+      ],
+      "last_checked_date": null,
+      "reference_saved_date": null,
+      "potential_argentina_relevance": "Excluded from Argentina shortlist by prior review: remote US or Canada only. Retain separate geographic options and unknown pay; not a current eligibility verdict.",
+      "known_terms_reuse_references": null,
+      "evidence_kind": "reported_prior_direct_observation",
+      "inferences": [
+        "Provider/board identity derived from prior posting URL. Employer-owned corporate-to-board chain not recovered. Board itself not verified."
+      ],
+      "uncertainties": [
+        "Current availability unknown.",
+        "Official corporate-to-board ownership link not recovered.",
+        "Retrieval and republication permission unknown.",
+        "Posting-specific Argentina eligibility not established."
+      ],
+      "next_verification_step": "Establish employer-owned careers URL and outbound board link, then review source terms and dated posting evidence before any activation."
+    }
+  ]
+}
