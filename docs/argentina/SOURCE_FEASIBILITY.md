@@ -26,4 +26,11 @@ The offline collector requires a matching nonnegative `meta.total` before claimi
 - Posting-specific Argentina evidence with observation dates, including exclusions and ambiguous examples.
 - An explicitly authorized bounded live smoke, after a reviewed real-source record exists. None is authorized or executed by this research note.
 
-Do not lower completeness or eligibility rules to meet a board count. Existing Chewie search history should first land as documented research evidence on a separate branch, never as automatic activation of a source or import of application data.
+Do not lower completeness or eligibility rules to meet a board count. Chewie’s search history has since landed as [separate research artifacts](CHEWIE_HANDOFF.md), without source activation or import of application data.
+
+## CodeRoad follow-up
+
+The [dated CodeRoad qualification](CODEROAD_QUALIFICATION.md) establishes a direct
+employer-to-Greenhouse link and posting-specific Argentina evidence. The saved
+Python/React lead is no longer open. Collection/republication permission remains
+unresolved, with restrictive corporate terms; source activation is not approved.

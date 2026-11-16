@@ -35,7 +35,7 @@ Add `--previous <local snapshot.json>` to exercise lifecycle reconciliation. Thi
 
 Historical regressions remain explicit: `npm run test:legacy:python`, `npm run test:legacy:jobs`, and `npm run test:legacy:mcp`. They retain upstream behavior; the inherited site builder can fetch map topology, so these are not an offline guarantee. Argentina tests preload transport denial for subprocess demo/build checks. See [upstream divergence](../UPSTREAM.md) and [baseline evidence](evidence/BASELINE.md).
 
-No remote settings, hosting or deployed route behavior were changed or tested. Source feasibility research is deferred by the local milestone scope: no employer discovery or real registry is claimed. Production qualification, source permissions, real adapter transport and P2–P7 remain outstanding.
+No remote settings, hosting or deployed route behavior were changed or tested. Source feasibility was deferred by the original local milestone. Subsequent bounded public-page research is documented below; it does not establish a qualified source or populated real registry. Production qualification, source permissions, real adapter transport and P2–P7 remain outstanding.
 
 ## Start here
 
@@ -70,3 +70,7 @@ Forked from [pugarte7/spanish-top-tech-companies](https://github.com/pugarte7/sp
 approved sources or current openings. Reported historical checks do not refresh
 job lifecycle clocks. Start with CodeRoad for a bounded Greenhouse ownership and
 permission review; no source activation is authorized by this contribution.
+
+[CodeRoad qualification](CODEROAD_QUALIFICATION.md) records the subsequent public
+page review: ownership link established, historical posting unavailable, and
+permission still unresolved. No runtime source was added.
