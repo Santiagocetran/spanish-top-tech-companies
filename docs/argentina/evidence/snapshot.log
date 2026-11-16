@@ -1,0 +1,5 @@
+
+> snapshot:check
+> node scripts/check-snapshot.mjs .cache/ar-demo/snapshot.json
+
+SNAPSHOT_OK

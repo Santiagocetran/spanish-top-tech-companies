@@ -1,0 +1,12 @@
+{
+  "name": "Argentina Tech Jobs — local prototype",
+  "owner": null,
+  "repository": null,
+  "public_origin": null,
+  "target_country": "AR",
+  "locale": "es-AR",
+  "telemetry_enabled": false,
+  "live_crawling_enabled": false,
+  "publication_enabled": false,
+  "user_agent": "ArgentinaTechJobs-LocalFixture/0.1 (offline; no network)"
+}

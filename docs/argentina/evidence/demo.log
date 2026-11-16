@@ -1,0 +1,14 @@
+
+> demo
+> node scripts/argentina-demo.mjs
+
+{
+  "demo": "SYNTHETIC_ONLY",
+  "as_of": "2026-11-16T00:00:00.000Z",
+  "generation_id": "fixture-f5ae4afa0aec57d7da8c5491",
+  "job_ids": [
+    "job_ccd1d04df847ae9a67f2b17c2102a37b",
+    "job_22c7adc778303b8f6c63a8cf574f57cd"
+  ],
+  "snapshot": ".cache/ar-demo/snapshot.json"
+}

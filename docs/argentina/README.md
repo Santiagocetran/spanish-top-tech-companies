@@ -2,7 +2,36 @@
 
 This fork is preparing an Argentina-focused technology job discovery service: positions located in Argentina and remote positions available to people residing there.
 
-**Status: planning published; implementation has not started.** Existing application code, datasets and live-service links still belong to the upstream Spain-focused project. They are not an Argentina service. GitHub Actions are disabled on this fork to prevent inherited deployment, release and registry workflows from running.
+**Status: local P0–P1 + V0 prototype implemented.** The Argentina commands use synthetic fixtures only; no real employer coverage, live crawl, MCP transport, production website or deployment is provided. Inherited Spain code/data and service links remain historical. All inherited GitHub workflows are archived outside the discovery directory.
+
+See the [V0 handoff](LOCAL_V0.md) for acceptance mapping, exact results, review corrections and limitations.
+
+## Run locally
+
+Use Node `22.23.4` (`.nvmrc`) and the existing pinned lockfile:
+
+```sh
+npm ci --ignore-scripts
+npm run validate:registry
+npm test
+npm run demo
+npm run snapshot:check -- .cache/ar-demo/snapshot.json
+npm run build -- --snapshot .cache/ar-demo/snapshot.json
+```
+
+The demo fixes its clock to `2026-11-16T00:00:00.000Z` and writes a deterministic, explicitly synthetic snapshot. Its search runs at that same instant. This is reproducible test evidence, not a claim the jobs are fresh today. Search consumers must pass current time when serving real reads. Build copies the snapshot with its original as-of timestamp and writes only a labelled local index, JSON and static artifact manifest to ignored `_site-ar/`. Build without `--snapshot` fails closed, clearing prior output; there is no Spain or live-data fallback.
+
+For explicit local orchestration:
+
+```sh
+npm run crawl -- --fixture tests/fixtures/ar/greenhouse.json --registry tests/fixtures/ar/registry.json --now 2026-11-16T00:00:00.000Z --out .cache/ar-run/snapshot.json
+```
+
+Add `--previous <local snapshot.json>` to exercise lifecycle reconciliation. This `crawl` command accepts fixtures only and has no network transport. Configuration in `config/project.json` enforces Argentina and disables telemetry, crawling and publication. Registry defaults validate the synthetic fixture, not an approved employer registry.
+
+Historical regressions remain explicit: `npm run test:legacy:python`, `npm run test:legacy:jobs`, and `npm run test:legacy:mcp`. They retain upstream behavior; the inherited site builder can fetch map topology, so these are not an offline guarantee. Argentina tests preload transport denial for subprocess demo/build checks. See [upstream divergence](../UPSTREAM.md) and [baseline evidence](evidence/BASELINE.md).
+
+No remote settings, hosting or deployed route behavior were changed or tested. Source feasibility research is deferred by the local milestone scope: no employer discovery or real registry is claimed. Production qualification, source permissions, real adapter transport and P2–P7 remain outstanding.
 
 ## Start here
 
@@ -10,7 +39,7 @@ This fork is preparing an Argentina-focused technology job discovery service: po
 2. [Audit resolutions](AUDIT_DISPOSITION.md) — disposition of all 14 independent review findings.
 3. [Independent audit](AUDIT.md) — the original review; line references point to the [reviewed draft](DRAFT_REVIEWED.md).
 
-The recommended first work package is **P0–P1 + V0**: fork hygiene, data contracts and a local fixture flowing through normalization, Argentina eligibility, lifecycle tracking and search. It requires no live crawl, hosting or remote publication.
+The implemented **P0–P1 + V0** slice proves local fixture normalization, Argentina eligibility, lifecycle tracking and pure search. The implementation plan remains the authoritative scope for later phases; its original planning status describes the earlier stage.
 
 ## Recorded baseline
 

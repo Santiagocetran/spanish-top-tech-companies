@@ -1,0 +1,10 @@
+# No legacy serverless functions or telemetry may enter deployment input.
+api/
+lib/mcp/
+scripts/mcp-stdio.mjs
+.github/
+.github/workflows-disabled/
+data/
+web/
+tests/
+docs/

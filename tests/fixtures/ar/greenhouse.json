@@ -1,0 +1,45 @@
+{
+  "jobs": [
+    {
+      "id": 101,
+      "title": "Software Engineer",
+      "absolute_url": "https://boards.greenhouse.io/synthetic/jobs/101",
+      "location": {
+        "name": "Remote — Argentina"
+      },
+      "updated_at": "2026-11-16T00:00:00.000Z"
+    },
+    {
+      "id": 102,
+      "title": "Recruiter",
+      "absolute_url": "https://boards.greenhouse.io/synthetic/jobs/102",
+      "location": {
+        "name": "Remote — LATAM"
+      }
+    },
+    {
+      "id": 103,
+      "title": "Software Engineer",
+      "absolute_url": "https://boards.greenhouse.io/synthetic/jobs/103",
+      "location": {
+        "name": "Remote — US only"
+      }
+    },
+    {
+      "id": 104,
+      "title": "Software Engineer",
+      "absolute_url": "https://boards.greenhouse.io/synthetic/jobs/104",
+      "location": {
+        "name": "Remote"
+      }
+    },
+    {
+      "id": 105,
+      "title": "Data Engineer",
+      "absolute_url": "https://boards.greenhouse.io/synthetic/jobs/105",
+      "location": {
+        "name": "Remote — LATAM"
+      }
+    }
+  ]
+}

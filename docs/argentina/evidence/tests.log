@@ -1,0 +1,176 @@
+
+> test
+> node --test tests/jobs-ar/*.test.mjs
+
+TAP version 13
+# Subtest: synthetic provider fixture becomes strict canonical jobs and bounded evidence
+ok 1 - synthetic provider fixture becomes strict canonical jobs and bounded evidence
+  ---
+  duration_ms: 70.170035
+  type: 'test'
+  ...
+# Subtest: registry and provider identities reject collisions and remain independent of title
+ok 2 - registry and provider identities reject collisions and remain independent of title
+  ---
+  duration_ms: 7.126635
+  type: 'test'
+  ...
+# Subtest: untrusted payloads and URLs cannot cross persistence boundary
+ok 3 - untrusted payloads and URLs cannot cross persistence boundary
+  ---
+  duration_ms: 3.120507
+  type: 'test'
+  ...
+# Subtest: geography preserves ambiguity and documented provider enum mappings
+ok 4 - geography preserves ambiguity and documented provider enum mappings
+  ---
+  duration_ms: 0.576428
+  type: 'test'
+  ...
+# Subtest: option-scoped restrictions defeat broad language; uncertainty remains unknown
+ok 5 - option-scoped restrictions defeat broad language; uncertainty remains unknown
+  ---
+  duration_ms: 14.833353
+  type: 'test'
+  ...
+# Subtest: pay matches exact tuple, option, applicability and fresh evidence only
+ok 6 - pay matches exact tuple, option, applicability and fresh evidence only
+  ---
+  duration_ms: 2.866728
+  type: 'test'
+  ...
+# Subtest: unparsed descriptions and title restrictions cannot confirm Argentina
+ok 7 - unparsed descriptions and title restrictions cannot confirm Argentina
+  ---
+  duration_ms: 7.677064
+  type: 'test'
+  ...
+# Subtest: unsupported mixed and negated location labels never confirm by substring
+ok 8 - unsupported mixed and negated location labels never confirm by substring
+  ---
+  duration_ms: 13.124841
+  type: 'test'
+  ...
+# Subtest: technology role taxonomy includes data QA and security, leaves generic engineering unknown
+ok 9 - technology role taxonomy includes data QA and security, leaves generic engineering unknown
+  ---
+  duration_ms: 0.773137
+  type: 'test'
+  ...
+# Subtest: unreviewed title qualifiers never confirm eligibility
+ok 10 - unreviewed title qualifiers never confirm eligibility
+  ---
+  duration_ms: 9.321401
+  type: 'test'
+  ...
+# Subtest: offline raw fixture to file to exact search, replay, absence and explicit rebuild
+ok 11 - offline raw fixture to file to exact search, replay, absence and explicit rebuild
+  ---
+  duration_ms: 321.274295
+  type: 'test'
+  ...
+# Subtest: unapproved provider fields and descriptions never leak to persisted state
+ok 12 - unapproved provider fields and descriptions never leak to persisted state
+  ---
+  duration_ms: 28.801857
+  type: 'test'
+  ...
+# Subtest: strict fake-time eligibility and independent pay boundaries
+ok 13 - strict fake-time eligibility and independent pay boundaries
+  ---
+  duration_ms: 1.901133
+  type: 'test'
+  ...
+# Subtest: complete absence, replay, 24h closure, reopening and source removal
+ok 14 - complete absence, replay, 24h closure, reopening and source removal
+  ---
+  duration_ms: 34.195407
+  type: 'test'
+  ...
+# Subtest: plan changes, partial runs, required failures and optional pay failure
+ok 15 - plan changes, partial runs, required failures and optional pay failure
+  ---
+  duration_ms: 15.831206
+  type: 'test'
+  ...
+# Subtest: strict persistence and evidence survive failed/empty inventories, removals prune content
+ok 16 - strict persistence and evidence survive failed/empty inventories, removals prune content
+  ---
+  duration_ms: 52.106042
+  type: 'test'
+  ...
+# Subtest: complete inventory separates observed required failure, absent IDs and optional pay failure
+ok 17 - complete inventory separates observed required failure, absent IDs and optional pay failure
+  ---
+  duration_ms: 29.322984
+  type: 'test'
+  ...
+# Subtest: project identity is local and external behavior is disabled
+ok 18 - project identity is local and external behavior is disabled
+  ---
+  duration_ms: 8.512812
+  type: 'test'
+  ...
+# Subtest: no inherited workflow is discoverable
+ok 19 - no inherited workflow is discoverable
+  ---
+  duration_ms: 2.991553
+  type: 'test'
+  ...
+# Subtest: deployment configuration has no upstream routing and excludes all legacy functions
+ok 20 - deployment configuration has no upstream routing and excludes all legacy functions
+  ---
+  duration_ms: 8.152964
+  type: 'test'
+  ...
+# Subtest: build fails closed without an explicit snapshot
+ok 21 - build fails closed without an explicit snapshot
+  ---
+  duration_ms: 195.199083
+  type: 'test'
+  ...
+# Subtest: synthetic demo and explicit artifact build deny all network transports
+ok 22 - synthetic demo and explicit artifact build deny all network transports
+  ---
+  duration_ms: 850.419483
+  type: 'test'
+  ...
+# Subtest: fixture exact IDs, evidence, applied defaults and honest counts
+ok 23 - fixture exact IDs, evidence, applied defaults and honest counts
+  ---
+  duration_ms: 13.758223
+  type: 'test'
+  ...
+# Subtest: option coherent pay with exact tuple, fresh range and explicit defaults
+ok 24 - option coherent pay with exact tuple, fresh range and explicit defaults
+  ---
+  duration_ms: 12.105085
+  type: 'test'
+  ...
+# Subtest: freshness, unknown opt-in and strict query/snapshot rejection
+ok 25 - freshness, unknown opt-in and strict query/snapshot rejection
+  ---
+  duration_ms: 12.434955
+  type: 'test'
+  ...
+# Subtest: location, workplace and pay filters must match the same option
+ok 26 - location, workplace and pay filters must match the same option
+  ---
+  duration_ms: 3.660615
+  type: 'test'
+  ...
+# Subtest: malformed pay cannot silently remove a requested compensation filter
+ok 27 - malformed pay cannot silently remove a requested compensation filter
+  ---
+  duration_ms: 1.227057
+  type: 'test'
+  ...
+1..27
+# tests 27
+# suites 0
+# pass 27
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1570.516429

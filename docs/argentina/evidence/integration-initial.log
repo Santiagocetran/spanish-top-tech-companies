@@ -1,0 +1,142 @@
+
+> test
+> node --test tests/jobs-ar/*.test.mjs
+
+TAP version 13
+# Subtest: synthetic provider fixture becomes strict canonical jobs and bounded evidence
+ok 1 - synthetic provider fixture becomes strict canonical jobs and bounded evidence
+  ---
+  duration_ms: 41.398526
+  type: 'test'
+  ...
+# Subtest: registry and provider identities reject collisions and remain independent of title
+ok 2 - registry and provider identities reject collisions and remain independent of title
+  ---
+  duration_ms: 8.118643
+  type: 'test'
+  ...
+# Subtest: untrusted payloads and URLs cannot cross persistence boundary
+ok 3 - untrusted payloads and URLs cannot cross persistence boundary
+  ---
+  duration_ms: 5.086818
+  type: 'test'
+  ...
+# Subtest: geography preserves ambiguity and documented provider enum mappings
+ok 4 - geography preserves ambiguity and documented provider enum mappings
+  ---
+  duration_ms: 1.273897
+  type: 'test'
+  ...
+# Subtest: option-scoped restrictions defeat broad language; uncertainty remains unknown
+ok 5 - option-scoped restrictions defeat broad language; uncertainty remains unknown
+  ---
+  duration_ms: 28.628419
+  type: 'test'
+  ...
+# Subtest: pay matches exact tuple, option, applicability and fresh evidence only
+ok 6 - pay matches exact tuple, option, applicability and fresh evidence only
+  ---
+  duration_ms: 2.807691
+  type: 'test'
+  ...
+# Subtest: unparsed descriptions and title restrictions cannot confirm Argentina
+ok 7 - unparsed descriptions and title restrictions cannot confirm Argentina
+  ---
+  duration_ms: 5.332528
+  type: 'test'
+  ...
+# Subtest: strict fake-time eligibility and independent pay boundaries
+ok 8 - strict fake-time eligibility and independent pay boundaries
+  ---
+  duration_ms: 1.920556
+  type: 'test'
+  ...
+# Subtest: complete absence, replay, 24h closure, reopening and source removal
+ok 9 - complete absence, replay, 24h closure, reopening and source removal
+  ---
+  duration_ms: 4.412209
+  type: 'test'
+  ...
+# Subtest: plan changes, partial runs, required failures and optional pay failure
+ok 10 - plan changes, partial runs, required failures and optional pay failure
+  ---
+  duration_ms: 2.136853
+  type: 'test'
+  ...
+# Subtest: project identity is local and external behavior is disabled
+ok 11 - project identity is local and external behavior is disabled
+  ---
+  duration_ms: 14.95301
+  type: 'test'
+  ...
+# Subtest: no inherited workflow is discoverable
+ok 12 - no inherited workflow is discoverable
+  ---
+  duration_ms: 4.279132
+  type: 'test'
+  ...
+# Subtest: deployment configuration has no upstream routing and excludes all legacy functions
+ok 13 - deployment configuration has no upstream routing and excludes all legacy functions
+  ---
+  duration_ms: 3.126281
+  type: 'test'
+  ...
+# Subtest: build fails closed without an explicit snapshot
+ok 14 - build fails closed without an explicit snapshot
+  ---
+  duration_ms: 204.661784
+  type: 'test'
+  ...
+# Subtest: synthetic demo and explicit artifact build deny all network transports
+ok 15 - synthetic demo and explicit artifact build deny all network transports
+  ---
+  duration_ms: 827.476763
+  type: 'test'
+  ...
+# Subtest: exact same-option filters and matching counts never relax
+not ok 16 - exact same-option filters and matching counts never relax
+  ---
+  duration_ms: 27.053304
+  type: 'test'
+  location: '/home/agent/argentina-v0/tests/jobs-ar/search.test.mjs:8:1'
+  failureType: 'testCodeFailure'
+  error: ''
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    validateSnapshot (file:///home/agent/argentina-v0/lib/jobs/snapshot.js:6:18)
+    searchJobs (file:///home/agent/argentina-v0/lib/jobs/search.js:35:3)
+    TestContext.<anonymous> (file:///home/agent/argentina-v0/tests/jobs-ar/search.test.mjs:9:15)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: read-time freshness, removal, role scope and bounded deterministic output
+not ok 17 - read-time freshness, removal, role scope and bounded deterministic output
+  ---
+  duration_ms: 1.783606
+  type: 'test'
+  location: '/home/agent/argentina-v0/tests/jobs-ar/search.test.mjs:17:1'
+  failureType: 'testCodeFailure'
+  error: ''
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    validateSnapshot (file:///home/agent/argentina-v0/lib/jobs/snapshot.js:6:18)
+    searchJobs (file:///home/agent/argentina-v0/lib/jobs/search.js:35:3)
+    TestContext.<anonymous> (file:///home/agent/argentina-v0/tests/jobs-ar/search.test.mjs:18:52)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 15
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1196.711198

@@ -1,0 +1,5 @@
+
+> build
+> node scripts/build-job-site.mjs --snapshot .cache/ar-demo/snapshot.json
+
+LOCAL_BUILD_OK

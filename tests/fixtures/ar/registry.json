@@ -1,0 +1,57 @@
+{
+  "companies": [
+    {
+      "company_id": "synthetic_company",
+      "name": "Synthetic Fixture Company",
+      "aliases": [],
+      "website": "https://example.com",
+      "careers_url": "https://example.com/careers",
+      "company_type": "product",
+      "verification": {
+        "status": "verified",
+        "evidence_url": "https://example.com/careers",
+        "checked_at": "2026-11-16T00:00:00.000Z",
+        "reviewer": "fixture"
+      },
+      "hiring_policies": []
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "synthetic_greenhouse",
+      "company_id": "synthetic_company",
+      "ats": "greenhouse",
+      "board": "synthetic",
+      "region": "global",
+      "enabled": true,
+      "canonical_board_url": "https://boards.greenhouse.io/synthetic",
+      "ownership_evidence_url": "https://example.com/careers",
+      "verified_at": "2026-11-16T00:00:00.000Z",
+      "review_due_at": "2027-01-01T00:00:00.000Z",
+      "inventory_plan": {
+        "version": "full-board-v1",
+        "hash": "synthetic_plan_v1",
+        "query": "",
+        "country_facets": []
+      },
+      "allowed_hosts": [
+        "boards.greenhouse.io"
+      ],
+      "limits": {
+        "requests": 2,
+        "pages": 1,
+        "details": 0,
+        "timeout_ms": 1000
+      },
+      "adapter_contract_version": "greenhouse-v0-1",
+      "coverage_scope": "full_board",
+      "permission_review": {
+        "url": "https://example.com/terms",
+        "reviewed_at": "2026-11-16T00:00:00.000Z",
+        "retrieval": true,
+        "publication": true,
+        "reviewer": "fixture"
+      }
+    }
+  ]
+}

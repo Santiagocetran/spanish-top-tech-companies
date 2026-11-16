@@ -1,0 +1,260 @@
+  pass  stdio answers all 63 lines
+  pass  initialize keeps a known version
+  pass  initialize offers the newest handshake version
+  pass  tools/list lists the eight tools
+  pass  ping
+  pass  all of Spain
+  pass  names resolve and years are bucketed
+  pass  a small selection is withheld, not guessed
+  pass  years as a string of digits
+  pass  5.9 years is refused
+  pass  true is not a number of years
+  pass  top companies honour the limit
+  pass  search narrows by name
+  pass  a limit that is not a number is refused
+  pass  a null limit is the default
+  pass  3.0 is a whole limit
+  pass  one company
+  pass  a company by role keeps to that role
+  pass  a company by region and years
+  pass  an ambiguous name lists the matches
+  pass  a company needs a name
+  pass  a blank role is all roles
+  pass  an unknown role is a tool error
+  pass  unreadable years are a tool error
+  pass  list_filters
+  pass  an unknown tool is invalid params
+  pass  a prototype name is no tool
+  pass  arguments must be an object
+  pass  params must be an object
+  pass  an unknown method
+  pass  modern discovery
+  pass  modern tools/list can be cached
+  pass  modern call
+  pass  modern call, refused years
+  pass  modern ping is not a method
+  pass  an unsupported modern version
+  pass  find_jobs lists the index with its date
+  pass  a query ignores case
+  pass  a query ignores accents and reads the department
+  pass  region remote
+  pass  a region by name matches its cities
+  pass  region and workplace together
+  pass  workplace remote
+  pass  a company by slug
+  pass  exclude leaves out the ids an agent passes
+  pass  the limit is capped at 50
+  pass  a small limit says how many more match
+  pass  a role matches titles of that role
+  pass  a role by name
+  pass  text that is no role filters titles
+  pass  min_salary_eur says what it checked
+  pass  a salary that is no number is refused
+  pass  an unknown workplace is refused
+  pass  exclude as one string
+  pass  exclude must hold ids
+  pass  an id not in the index is a tool error
+  pass  job_questions needs an id
+  pass  a board without a form API sends the agent to the URL
+  pass  application_guide holds the template and rules, and no other server
+  pass  application_guide for one client
+  pass  odd line: a string
+  pass  odd line: an empty batch
+  pass  odd line: a batch answers its requests only
+  pass  odd line: bad JSON
+  pass  http handshake-era call (200)
+  pass  http known version header (200)
+  pass  http unknown version header (400)
+  pass  http 2026 header, no _meta (400)
+  pass  http modern call (200)
+  pass  http modern call, no Mcp-Method (400)
+  pass  http modern tool, wrong Mcp-Name (400)
+  pass  http modern tool, base64 Mcp-Name (200)
+  pass  http modern unknown method is 404 (404)
+  pass  http modern unknown version (400)
+  pass  http a notification is 202 (202)
+  pass  http a batch answers each (200)
+  pass  http bad JSON is 400 (400)
+  pass  http GET is 405 (405)
+  pass  http preflight (204)
+  pass  server.json, the MCP Registry's listing, names this server's version and its /mcp address
+  pass  agents are asked to suggest a star, never to star on their own
+  pass  agents are asked, not told, to bring readers back
+  pass  no hidden text tells agents what to do
+  pass  no text tells agents to always say yes
+  pass  the table lists every company data.json names, more than had a group of five
+  pass  a company with 1 salary is returned with its count and the few flag
+  pass  a company with 3 salaries is returned with its count and the few flag
+  pass  a company of five or more keeps data.json's figures, unflagged
+  pass  every company figure is the table's own row
+  pass  a name the site does not list says so and offers close names
+  pass  with nothing close, it points to top_companies' search
+  pass  top_companies lists every company, under min_ranked salaries after the rest
+  pass  salary_stats still withholds under five where top_companies lists companies
+  pass  a batch over 50 is refused
+  pass  an internal failure tells the client nothing more
+  pass  a call answers from the site's data
+  pass  every tool takes an optional context
+  pass  context changes no answer
+  pass  a tool call is one $mcp_tool_call with what MCP Analytics needs
+  pass  the reason is kept, without the email or the phone
+  pass  an argument the tool does not declare is not sent
+  pass  a call to an unknown tool is no event
+  pass  a failed call says so
+  pass  a handshake is $mcp_initialize with the client
+  pass  redaction takes keys, tokens and addresses
+  pass  initialize hands out a random Mcp-Session-Id, exposed to browsers
+  pass  a later request keeps its session and gets no new id
+  pass  sessionOf: a handshake mints, a sent id is kept, anything else is ignored
+  pass  the calls of one connection share its session
+  pass  without a session id each request is its own
+  pass  the site's own traffic is internal: header, its scripts or a maintainer's check
+  pass  a call says how much it found, and whether nothing
+  pass  an unknown company or posting is not_found, a bad argument validation
+  pass  salary context is the table's row for the role, or null
+  pass  a company with fewer than five for the role gets its figure, flagged
+  pass  without the companies table find_jobs still lists postings, with no salary context
+  pass  without it the company tools say so
+  pass  best salary figure first, then the newest
+  pass  find_jobs returns at most 50
+  pass  a missing index is a tool error that says so
+  pass  an index without a jobs list is the same tool error
+  pass  over HTTP: a missing jobs.json is a tool error, and is read once it exists
+  pass  one company's postings with the same title are one result
+  pass  matches and returned count results, and grouped says how many merged
+  pass  excluding one id of a group keeps the rest of the group
+  pass  excluding every id of a group removes it
+  pass  find_jobs: a city narrows to postings that name it
+  pass  find_jobs: Valencia, the city, is in VC
+  pass  find_jobs: a city no posting names falls back to its region
+  pass  find_jobs: city names resolve without accents or case
+  pass  find_jobs: a region's own name is the region, not a city
+  pass  titles read as their roles: Spanish forms, engineering outside software, several roles
+  pass  titles read as their level
+  pass  descriptions read as the years of experience they ask
+  pass  descriptions read as the keywords of the vocabulary they name
+  pass  robot and sdet reach the robotics and test automation keywords
+  pass  a query keeps keyword phrases together and names their keyword
+  pass  find_jobs finds a skill among the description's keywords, title matches first
+  pass  Django FastAPI finds the posting whose description names them
+  pass  go finds Golang through the keyword
+  pass  a rare word outranks a common one
+  pass  a posting matching only the query's common words is left out
+  pass  find_jobs names the query words no result matches
+  pass  recién titulado finds graduate postings
+  pass  a query of common words and senior still matches any of them
+  pass  a word common in descriptions but rare in titles matches in a title
+  pass  matching more of the query's words outranks one rare title word
+  pass  a title leaves out the parts that only name its place
+  pass  a posting stored without keywords takes them from its title
+  pass  find_jobs counts the results found only through keywords
+  pass  find_jobs: seniority keeps the titles naming that level
+  pass  find_jobs: mid also takes titles naming no level
+  pass  find_jobs: years leaves out postings asking more, keeps those naming none
+  pass  find_jobs: a years bucket is read as its top
+  pass  find_jobs: the stored roles are what role filters, and what salary_context uses
+  pass  find_jobs: stored regions are what region filters
+  pass  find_jobs: postings stored without the fields are classified on the fly
+  pass  find_jobs: an unknown level or years is a tool error naming the options
+  pass  salary_stats: a city is its region, with a note
+  pass  salary_stats: a Basque province is its region
+  pass  top_companies: a city is its region, with a note
+  pass  company_salaries: one company naming the word wins over a prefix (SEAT CODE, not SeatGeek)
+  pass  company_salaries: a city is its region, with a note
+  pass  an unknown place names cities as an option
+  pass  place words such as Spain do not match every posting through its location
+  pass  greenhouse: questions with type, options and required
+  pass  greenhouse: who=person for authorization, sponsorship, salary, veteran, gender and consent
+  pass  greenhouse: who=agent for contact, motivation and experience, an aside does not count
+  pass  greenhouse: the description is text, marked untrusted
+  pass  greenhouse: apply on the board's own page
+  pass  greenhouse: a careers-site URL applies through Greenhouse's hosted form
+  pass  lever: standard fields, cards, consents and the CAPTCHA
+  pass  lever: the posting text comes from the postings API, untrusted
+  pass  lever: an EU board is read on Lever's EU hosts; a missing description is null
+  pass  ashby: fields, a Boolean as Yes/No, who=person for sponsorship, bot checks and pay
+  pass  workable: fields with labels as options, right to work, pay and GDPR to the person
+  pass  recruitee: the fields switched on, open questions, permit and pay to the person
+  pass  bamboohr: standard fields with their labels, the employer's questions, permit and pay to the person
+  pass  teamtailor: own questions with their options, the locations picker, standard fields and consents
+  pass  teamtailor: a posting whose URL is not on its board's host is not read
+  pass  workday: the posting, an account the person opens, the standard steps and the employer's questions
+  pass  bending spoons: the form in the posting's page, its offices as countries, sponsorship to the person
+  pass  job_questions quotes what the posting says about pay and place, perks left out
+  pass  job_questions warns when the board names another location than the index
+  pass  pinpoint: standard fields, the employer's questions with conditions, diversity and consent to the person
+  pass  pinpoint: a board that sends its pages to the employer's domain is read there
+  pass  pinpoint: a posting URL on another host is not read unless the board sends it there
+  pass  rippling: standard fields, the employer's questions with their text, AI use and EEOC to the person
+  pass  smartrecruiters: the posting and its apply URL; the form, not public, is read in the browser
+  pass  phenom: a posting applied to on Workday reads as Workday, through the Phenom page
+  pass  phenom: on another ATS, the apply URL, the description and one unread form
+  pass  workday: a posting that takes no more applications is a tool error
+  pass  a posting the board no longer has is a tool error with the URL
+  pass  a board that cannot be reached is a tool error
+  pass  eightfold: contact fields, CV and the employer's questions for Spain, from the apply page
+  pass  eightfold: a site that takes applications after sign-in says so, with a marker for the employer's questions
+  pass  eightfold: a site that sends applications to its own system gives one unread form
+  pass  eightfold: a page sent to a general careers site keeps the posting, its text and where it leads
+  pass  eightfold: an apply page that sends to sign-in is account_required
+  pass  eightfold: a posting the position API no longer has is a tool error
+  pass  successfactors: the posting page gives the description and place, and the form needs an account
+  pass  successfactors: a posting that sends to an error page is a tool error
+  pass  successfactors: a posting URL off the board's host is not read
+  pass  amazon: the posting's text and qualifications, and an account to apply
+  pass  amazon: a posting the search no longer finds is a tool error
+  pass  jsonapi: Capgemini's postings are read from its SuccessFactors site
+  pass  jsonapi: an employer's own API with no form reader sends the agent to the URL
+  pass  jsonld: the posting's JobPosting text and place, and the form its Apply link opens
+  pass  jsonld: a page moved on its own host is followed once
+  pass  jsonld: with no Apply link the form is the posting's page
+  pass  jsonld: a posting past its validThrough is a tool error
+  pass  radancy: the posting page's JobPosting and the form its Apply link opens
+  pass  icims: the page moved on its host is read, without iCIMS's UNAVAILABLE region
+  pass  oracle: the requisition's description from the public API, the form in the browser
+  pass  oracle: a requisition the API no longer has may have closed
+  pass  cornerstone: the requisition found through the site's own search, with the visitor token
+  pass  boards are read on allow-listed HTTPS hosts only, without following redirects
+  pass  a request reads at most five forms live
+  pass  tools/list points an agent asked to apply at find_jobs and application_guide
+  pass  a find_jobs event carries no excluded ids and no email
+  pass  job_questions and application_guide are counted like the other tools
+  pass  find_jobs: any word of the query matches, synonyms included
+  pass  find_jobs: whole words, so engineer is not engineering
+  pass  find_jobs: postings matching more words come first, Spanish synonyms too
+  pass  find_jobs: front-end finds Frontend
+  pass  find_jobs: a specialization as role filters titles by its words
+  pass  salary_stats: DevOps is software-engineer, with a note
+  pass  top_companies: Backend Engineer is software-engineer
+  pass  report_application acknowledges and stores nothing
+  pass  a sent application carries a note for the person about a star, to pass on once, never an order to star
+  pass  find_jobs carries the same note under its postings, once a conversation, and none with no posting
+  pass  an uncertain application is its own status, and says not to submit again unasked
+  pass  report_application takes the reasons a board gives for an upload or a submit
+  pass  a failed or uncertain application carries no note about a star
+  pass  report_application takes a reason
+  pass  report_application refuses an unknown status or reason
+  pass  report_application is counted with its status and reason
+  pass  report_application's event keeps the job id whole, with the posting's board and company
+  pass  report_application takes what sending took: browser, steps, attempts and a note, personal data removed
+  pass  report_application without them counts none
+  pass  an id that is not a job id is still redacted
+  pass  application_guide says to report each outcome
+  pass  application_guide ends by passing on the star note, once
+  pass  the state document template keeps whether the star was asked about
+  pass  a company with no posting says the index has none, and suggests no other company's
+  pass  a misspelled company gets the close names in the index
+  pass  dropping one filter suggests the postings it finds, and says which filter they miss
+  pass  a salary floor nobody reaches is the filter to drop
+  pass  words no posting names say what query reads, keywords included, and suggest nothing
+  pass  a search that matches has no no_match
+  pass  region remote is all of Spain, with a note
+  pass  region Spain is all of Spain
+  pass  years written as a range count by the low end
+  pass  find_jobs reads a range of years as its top
+  pass  a selection under the minimum offers the nearest wider ones that have it
+  pass  a company without salaries but with postings points to find_jobs
+  pass  top_companies' search with no hit offers close names
+  pass  company_salaries names a company listed under a longer form of the name, apart
+  pass  form_access tells a form behind a sign-in or off the API from one read
+api/mcp.js answers as expected

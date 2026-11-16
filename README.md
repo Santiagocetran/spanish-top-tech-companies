@@ -1,6 +1,6 @@
 # Spanish Top Tech Companies: MCP de empleo y salarios tech en España
 
-> **Fork para Argentina — en etapa de planificación.** El [plan de implementación auditado](docs/argentina/README.md) cubre posiciones en Argentina y trabajo remoto desde Argentina. La implementación todavía no comenzó; el código, los datos y los enlaces de servicio que aparecen debajo siguen correspondiendo al proyecto original de España. GitHub Actions está deshabilitado en este fork.
+> **Fork para Argentina — prototipo local con datos sintéticos.** La [guía de Argentina](docs/argentina/README.md) explica cómo ejecutar la demostración, las pruebas y el build local. No hay cobertura real ni servicio publicado para Argentina. El contenido y los enlaces debajo corresponden al proyecto original de España. Los workflows heredados están archivados y deshabilitados en este checkout.
 
 <div align="center"><img alt="CI" src="https://github.com/pugarte7/spanish-top-tech-companies/actions/workflows/ci.yml/badge.svg"><img alt="Versión" src="https://img.shields.io/github/v/release/pugarte7/spanish-top-tech-companies?label=versi%C3%B3n"><img alt="MCP" src="https://img.shields.io/badge/MCP-spanishtoptechcompanies.com%2Fmcp-2b5cff"><img alt="Licencia del código: MIT" src="https://img.shields.io/badge/c%C3%B3digo-MIT-blue"><img alt="Licencia de los datos: CC BY-SA 4.0" src="https://img.shields.io/badge/datos-CC%20BY--SA%204.0-lightgrey"><img alt="Lenguaje" src="https://img.shields.io/github/languages/top/pugarte7/spanish-top-tech-companies"></div>
 

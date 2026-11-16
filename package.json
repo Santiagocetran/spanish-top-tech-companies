@@ -2,7 +2,18 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "og": "node tests/site/og-image.mjs"
+    "og": "node tests/site/og-image.mjs",
+    "test": "node --test tests/jobs-ar/*.test.mjs",
+    "test:unit": "node --test tests/jobs-ar/*.test.mjs",
+    "test:security": "node --test tests/jobs-ar/safety.test.mjs",
+    "test:legacy:python": "python3 tests/test_pipeline.py",
+    "test:legacy:jobs": "node tests/jobs.test.mjs",
+    "test:legacy:mcp": "python3 scripts/site.py && node tests/mcp.test.mjs",
+    "validate:registry": "node scripts/validate-registry.mjs",
+    "demo": "node scripts/argentina-demo.mjs",
+    "crawl": "node scripts/crawl-jobs.mjs",
+    "snapshot:check": "node scripts/check-snapshot.mjs",
+    "build": "node scripts/build-job-site.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.55.0",
@@ -11,5 +22,8 @@
   "dependencies": {
     "fast-xml-parser": "5.12.0",
     "zod": "4.6.7"
+  },
+  "engines": {
+    "node": ">=22.23.4 <23"
   }
 }
