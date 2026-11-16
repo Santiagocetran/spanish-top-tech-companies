@@ -61,3 +61,27 @@ test('complete inventory separates observed required failure, absent IDs and opt
   assert.equal(state.jobs.find(j => j.job_id === job.job_id).status, 'open');
   assert.equal(state.jobs.find(j => j.job_id === second.job_id).status, 'closed');
 });
+test('explicit failed observations quarantine unseen IDs and preserve absence safety', () => {
+  const unseen = `job_${'a'.repeat(32)}`;
+  let state = apply(null, run('failure-initial', 0, [job]));
+  const mixed = run('failure-mixed', 1, [], {
+    observed_ids: [unseen], required_evidence_failures: [unseen],
+  });
+  state = apply(state, mixed);
+  assert.equal(state.jobs.length, 1);
+  assert.equal(state.jobs[0].status, 'missing');
+  assert.equal(state.jobs[0].missing_complete_runs, 1);
+  state = apply(state, run('failure-prior', 25, [], {
+    observed_ids: [job.job_id], required_evidence_failures: [job.job_id],
+  }));
+  assert.equal(state.jobs[0].status, 'stale');
+  assert.equal(state.jobs[0].missing_complete_runs, 0);
+  assert.equal(state.jobs[0].last_eligibility_verified_at, t);
+  for (const extra of [
+    { observed_ids: [unseen] },
+    { observed_ids: [], required_evidence_failures: [unseen] },
+    { observed_ids: [unseen, unseen], required_evidence_failures: [unseen] },
+    { observed_ids: [unseen], required_evidence_failures: [unseen, unseen] },
+    { observed_ids: ['invalid'], required_evidence_failures: ['invalid'] },
+  ]) assert.throws(() => apply(state, run('failure-invalid', 26, [], extra)));
+});

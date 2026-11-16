@@ -50,7 +50,7 @@ El parser admite un vocabulario y un subconjunto HTML acotados. Texto no reconoc
 - [Plan corregido](docs/argentina/IMPLEMENTATION_PLAN.md) y [resoluciones de auditoría](docs/argentina/AUDIT_DISPOSITION.md)
 - [Revisión independiente más reciente](docs/argentina/evidence/greenhouse-contract/REVIEW.md)
 
-La última verificación registra **57 pruebas aprobadas**, demo/build offline y regresiones históricas de jobs aprobadas. Hay dos entradas de auditoría de severidad alta en las dependencias de desarrollo Playwright heredadas; no se usan en este prototipo. Los resultados y límites están documentados, no representan una certificación de producción.
+La última verificación registra **75 pruebas aprobadas**, demo/build offline y regresiones históricas de jobs aprobadas. Hay dos entradas de auditoría de severidad alta en las dependencias de desarrollo Playwright heredadas; no se usan en este prototipo. Los resultados y límites están documentados, no representan una certificación de producción.
 
 Los workflows heredados están archivados fuera de `.github/workflows/`. No están habilitados cron, despliegues, releases ni publicación de MCP. El runtime de Argentina no carga datos españoles ni usa telemetría o endpoints heredados.
 

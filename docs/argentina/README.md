@@ -8,6 +8,8 @@ See the [V0 handoff](LOCAL_V0.md) for acceptance mapping, exact results, review 
 
 The next offline increment is also implemented: [Greenhouse description and pay contracts](GREENHOUSE_CONTRACT.md). Run `npm run demo:greenhouse` for its six-job synthetic demonstration.
 
+The [offline collection contract](OFFLINE_COLLECTION.md) now adds injected-transport budgets and completeness checks. [Source research](SOURCE_FEASIBILITY.md) contains provisional leads only; no sources are activated.
+
 ## Run locally
 
 Use Node `22.23.4` (`.nvmrc`) and the existing pinned lockfile:
