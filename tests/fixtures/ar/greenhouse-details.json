@@ -1,0 +1,39 @@
+{
+  "dataset_kind": "synthetic",
+  "details": {
+    "201": {
+      "id": 201,
+      "status": "success",
+      "pay_input_ranges": [
+        {
+          "min_cents": 10000000,
+          "max_cents": 15000000,
+          "currency_type": "USD",
+          "title": "US annual gross employee base salary"
+        },
+        {
+          "min_cents": 400000,
+          "max_cents": 600000,
+          "currency_type": "USD",
+          "title": "Argentina monthly gross contractor base salary"
+        }
+      ]
+    },
+    "202": {
+      "id": 202,
+      "status": "failed"
+    },
+    "204": {
+      "id": 204,
+      "status": "success",
+      "pay_input_ranges": [
+        {
+          "min_cents": 100000,
+          "max_cents": 200000,
+          "title": "Salary $"
+        }
+      ]
+    }
+  },
+  "source_id": "synthetic_greenhouse"
+}

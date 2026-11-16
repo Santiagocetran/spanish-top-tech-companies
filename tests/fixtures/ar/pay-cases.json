@@ -1,0 +1,83 @@
+{
+  "contract": "synthetic-optional-detail-v0; native legacy range fields with bounded explicit titles",
+  "cases": {
+    "multiple_scopes": {
+      "status": "success",
+      "pay_input_ranges": [
+        {
+          "min_cents": 10000000,
+          "max_cents": 15000000,
+          "currency_type": "USD",
+          "title": "US annual gross employee base salary"
+        },
+        {
+          "min_cents": 400000,
+          "max_cents": 600000,
+          "currency_type": "USD",
+          "title": "Argentina monthly gross contractor base salary"
+        },
+        {
+          "min_cents": null,
+          "max_cents": 200000,
+          "currency_type": "ARS",
+          "title": "Argentina monthly gross bonus"
+        }
+      ]
+    },
+    "unknown_semantics": {
+      "status": "success",
+      "pay_input_ranges": [
+        {
+          "min_cents": 10000,
+          "max_cents": 20000,
+          "title": "$ salary yearly gross worldwide"
+        }
+      ]
+    },
+    "unsupported_currency": {
+      "status": "success",
+      "pay_input_ranges": [
+        {
+          "min_cents": 0,
+          "max_cents": null,
+          "currency_type": "XYZ"
+        }
+      ]
+    },
+    "empty": {
+      "status": "success",
+      "pay_input_ranges": []
+    },
+    "failed": {
+      "status": "failed"
+    },
+    "invalid_negative": {
+      "status": "success",
+      "pay_input_ranges": [
+        {
+          "min_cents": -1
+        }
+      ]
+    },
+    "invalid_reversed": {
+      "status": "success",
+      "pay_input_ranges": [
+        {
+          "min_cents": 200,
+          "max_cents": 100
+        }
+      ]
+    },
+    "invalid_numeric_string": {
+      "status": "success",
+      "pay_input_ranges": [
+        {
+          "min_cents": "100"
+        }
+      ]
+    },
+    "invalid_payload": {
+      "status": "success"
+    }
+  }
+}

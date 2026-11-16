@@ -13,7 +13,8 @@
     "demo": "node scripts/argentina-demo.mjs",
     "crawl": "node scripts/crawl-jobs.mjs",
     "snapshot:check": "node scripts/check-snapshot.mjs",
-    "build": "node scripts/build-job-site.mjs"
+    "build": "node scripts/build-job-site.mjs",
+    "demo:greenhouse": "node scripts/greenhouse-contract-demo.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.55.0",

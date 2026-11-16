@@ -1,3 +1,4 @@
+import { RULES_VERSION } from '../../lib/jobs/schema.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -7,7 +8,7 @@ import {reconcileSnapshot} from '../../lib/jobs/lifecycle.js';
 const fixture=n=>JSON.parse(readFileSync(new URL(`../fixtures/ar/${n}.json`,import.meta.url)));
 const registry=fixture('registry'),now='2026-11-16T00:00:00.000Z';
 const normalized=normalizeGreenhouse(fixture('greenhouse'),{source:registry.sources[0],company:registry.companies[0],observed_at:now});
-const snapshot=reconcileSnapshot(null,{run_id:'r',observed_at:now,sources:[{source_id:registry.sources[0].source_id,inventory_plan_hash:'p',inventory_complete:true,status:'complete',truncated:false,coverage_scope:'full_board',jobs:normalized.jobs}]},{sources:registry.sources,metadata:{dataset_kind:'synthetic',schema_version:'ar-v0-1',rules_version:'ar-v0-1',generation_id:'g',producer_code_sha:'0'.repeat(40),registry_hash:'0'.repeat(64),removal_policy_version:'v1',evidence:normalized.evidence}});
+const snapshot=reconcileSnapshot(null,{run_id:'r',observed_at:now,sources:[{source_id:registry.sources[0].source_id,inventory_plan_hash:'p',inventory_complete:true,status:'complete',truncated:false,coverage_scope:'full_board',jobs:normalized.jobs}]},{sources:registry.sources,metadata:{dataset_kind:'synthetic',schema_version:'ar-v0-1',rules_version:RULES_VERSION,generation_id:'g',producer_code_sha:'0'.repeat(40),registry_hash:'0'.repeat(64),removal_policy_version:'v1',evidence:normalized.evidence}});
 const job=snapshot.jobs.find(j=>j.external_id==='101');
 const one=j=>({...snapshot,jobs:[j]});
 test('fixture exact IDs, evidence, applied defaults and honest counts',()=>{

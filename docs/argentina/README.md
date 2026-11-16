@@ -6,6 +6,8 @@ This fork is preparing an Argentina-focused technology job discovery service: po
 
 See the [V0 handoff](LOCAL_V0.md) for acceptance mapping, exact results, review corrections and limitations.
 
+The next offline increment is also implemented: [Greenhouse description and pay contracts](GREENHOUSE_CONTRACT.md). Run `npm run demo:greenhouse` for its six-job synthetic demonstration.
+
 ## Run locally
 
 Use Node `22.23.4` (`.nvmrc`) and the existing pinned lockfile:

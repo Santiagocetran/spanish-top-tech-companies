@@ -1,0 +1,58 @@
+{
+  "jobs": [
+    {
+      "id": 201,
+      "title": "Software Engineer",
+      "absolute_url": "https://boards.greenhouse.io/synthetic/jobs/201",
+      "location": {
+        "name": "Remote — Argentina"
+      },
+      "content": "<p>This role is remote from Argentina.</p><p>Overlap with US business hours is required.</p><p>Occasional travel is required.</p>"
+    },
+    {
+      "id": 202,
+      "title": "Software Engineer",
+      "absolute_url": "https://boards.greenhouse.io/synthetic/jobs/202",
+      "location": {
+        "name": "Remote — LATAM"
+      },
+      "content": "This role is remote across LATAM."
+    },
+    {
+      "id": 203,
+      "title": "Software Engineer",
+      "absolute_url": "https://boards.greenhouse.io/synthetic/jobs/203",
+      "location": {
+        "name": "Remote — worldwide"
+      },
+      "content": "This role excludes Argentina."
+    },
+    {
+      "id": 204,
+      "title": "Software Engineer",
+      "absolute_url": "https://boards.greenhouse.io/synthetic/jobs/204",
+      "location": {
+        "name": "Remote"
+      },
+      "content": "Our company has offices in Argentina."
+    },
+    {
+      "id": 205,
+      "title": "Software Engineer",
+      "absolute_url": "https://boards.greenhouse.io/synthetic/jobs/205",
+      "location": {
+        "name": "Remote — Argentina"
+      },
+      "content": "US work authorization is required."
+    },
+    {
+      "id": 206,
+      "title": "Software Engineer",
+      "absolute_url": "https://boards.greenhouse.io/synthetic/jobs/206",
+      "location": {
+        "name": "Remote — Argentina"
+      },
+      "content": "This role requires residence in Brazil."
+    }
+  ]
+}

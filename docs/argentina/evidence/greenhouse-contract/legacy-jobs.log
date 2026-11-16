@@ -1,0 +1,8 @@
+jobs:   boards-api.greenhouse.io refused Cabify ([http_error] HTTP 403 from boards-api.greenhouse.io); retrying in 0s
+jobs:   boards-api.greenhouse.io refused Cabify ([http_error] HTTP 403 from boards-api.greenhouse.io); retrying in 0s
+jobs:   boards-api.greenhouse.io refused Cabify ([http_error] HTTP 403 from boards-api.greenhouse.io); retrying in 0s
+jobs:   boards-api.greenhouse.io refused Gone ([http_error] HTTP 403 from boards-api.greenhouse.io); retrying in 0s
+jobs:   boards-api.greenhouse.io refused Third ([http_error] HTTP 403 from boards-api.greenhouse.io); retrying in 0s
+jobs:   boards-api.greenhouse.io refused Cabify ([http_error] HTTP 403 from boards-api.greenhouse.io); retrying in 0s
+jobs:   boards-api.greenhouse.io refused 5 times in a row; skipping its other 2 boards
+jobs: crawl 5 kept of 10, fixture 9, fallbacks ok

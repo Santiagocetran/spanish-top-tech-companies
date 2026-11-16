@@ -1,0 +1,16 @@
+[
+  {"name":"explicit EN", "location":"Remote", "content":"<p>This role is remote from Argentina.</p>", "status":"confirmed", "complete":true},
+  {"name":"explicit ES", "location":"Remote", "content":"<p>Remoto desde Argentina.</p>", "status":"confirmed", "complete":true},
+  {"name":"regional", "location":"Remote", "content":"This position is remote across LATAM.", "status":"likely", "complete":true},
+  {"name":"broad exclusion", "location":"Remote — LATAM", "content":"Este puesto excluye Argentina.", "status":"ineligible", "complete":true},
+  {"name":"bare", "location":"Remote", "content":"This is a remote role.", "status":"unknown", "complete":true},
+  {"name":"foreign attendance", "location":"Remote", "content":"This role requires weekly attendance at the Madrid office.", "status":"ineligible", "complete":true},
+  {"name":"authorization", "location":"Remote — Argentina", "content":"US work authorization is required.", "status":"unknown", "complete":true},
+  {"name":"travel schedule", "location":"Remote — Argentina", "content":"Occasional travel is required. Overlap with US business hours is required.", "status":"confirmed", "complete":true},
+  {"name":"company office", "location":"Remote", "content":"Our company has offices in Argentina.", "status":"unknown", "complete":true},
+  {"name":"conflict", "location":"Remote", "content":"This role is remote from Argentina. This role excludes Argentina.", "status":"unknown", "complete":true},
+  {"name":"unrecognized restriction", "location":"Remote — Argentina", "content":"This role is remote from Argentina. Candidates must move overseas.", "status":"unknown", "complete":false},
+  {"name":"negation", "location":"Remote — Argentina", "content":"This role is not remote from Argentina.", "status":"unknown", "complete":false},
+  {"name":"active html", "location":"Remote — Argentina", "content":"<script>This role excludes Argentina</script><p>This role is remote from Argentina</p>", "status":"unknown", "complete":false},
+  {"name":"entities", "location":"Remote", "content":"&lt;p&gt;This role is remote from Argentina.&lt;/p&gt;", "status":"confirmed", "complete":true}
+]

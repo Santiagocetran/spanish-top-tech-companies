@@ -1,5 +1,7 @@
 # Local V0 handoff
 
+This records the original V0 milestone. The subsequent [offline Greenhouse increment](GREENHOUSE_CONTRACT.md) supersedes its description/pay limitations and advances the rules version.
+
 Implemented on `implement/argentina-v0` in an isolated worktree from remote main `54f8f689bb1c84fa3271250bda3cef4ae6a62916`. Fetch confirmed no later main changes; the original checkout was clean and was not edited. No push, PR, Actions setting change, hosting, registry publication or live employer crawl occurred.
 
 ## Acceptance mapping

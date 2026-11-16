@@ -1,0 +1,40 @@
+{
+  "demo": "SYNTHETIC_ONLY",
+  "rules_version": "ar-v0-2",
+  "as_of": "2026-11-16T00:00:00.000Z",
+  "snapshot": ".cache/ar-greenhouse/snapshot.json",
+  "discovery": [
+    {
+      "id": "201",
+      "eligibility": "confirmed"
+    },
+    {
+      "id": "202",
+      "eligibility": "likely"
+    }
+  ],
+  "pay_query": {
+    "currency": "USD",
+    "period": "month",
+    "component": "base",
+    "basis": "gross",
+    "min_amount": 4000,
+    "threshold_mode": "lower_bound"
+  },
+  "pay_matches": [
+    {
+      "id": "201",
+      "matched_options": [
+        {
+          "option_id": "job_e7aa648b615cfac1836c9f989cc69fdb_0",
+          "compensation_refs": [
+            "pay_305f08c242a47c23d81a89ac"
+          ]
+        }
+      ]
+    }
+  ],
+  "optional_pay_failures": [
+    "202"
+  ]
+}

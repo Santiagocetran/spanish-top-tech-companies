@@ -1,3 +1,4 @@
+import { RULES_VERSION } from '../../lib/jobs/schema.js';
 import {readFileSync} from 'node:fs';
 import {normalizeGreenhouse} from '../../lib/jobs/normalize.js';
 import test from 'node:test';
@@ -10,7 +11,7 @@ const registry=fixture('registry'), sources=registry.sources;
 const normalized=normalizeGreenhouse(fixture('greenhouse'),{source:sources[0],company:registry.companies[0],observed_at:t});
 const job=normalized.jobs[0];
 const run=(id,h,jobs=[],extra={})=>({run_id:id,observed_at:at(h),sources:[{source_id:sources[0].source_id,inventory_plan_hash:'p',inventory_complete:true,status:'complete',truncated:false,coverage_scope:'full_board',jobs,...extra}]});
-const metadata={dataset_kind:'synthetic',schema_version:'ar-v0-1',rules_version:'ar-v0-1',producer_code_sha:'0'.repeat(40),registry_hash:'0'.repeat(64),removal_policy_version:'v1',evidence:normalized.evidence};
+const metadata={dataset_kind:'synthetic',schema_version:'ar-v0-1',rules_version:RULES_VERSION,producer_code_sha:'0'.repeat(40),registry_hash:'0'.repeat(64),removal_policy_version:'v1',evidence:normalized.evidence};
 const apply=(prev,r)=>reconcileSnapshot(prev,r,{sources,metadata:{...metadata,generation_id:r.run_id}});
 test('strict fake-time eligibility and independent pay boundaries',()=>{
  assert.equal(effectiveJobState(job,at(48-0.001)),'open'); assert.equal(effectiveJobState(job,at(48)),'stale'); assert.equal(effectiveJobState(job,at(168-0.001)),'stale'); assert.equal(effectiveJobState(job,at(168)),'expired_unverified');

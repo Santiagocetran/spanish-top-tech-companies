@@ -1,5 +1,6 @@
 // Fixture-only orchestration. This command has no live transport.
 import { readFile } from 'node:fs/promises';
+import { z } from 'zod';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { resolve } from 'node:path';
@@ -10,15 +11,24 @@ import { reconcileSnapshot } from '../lib/jobs/lifecycle.js';
 import { readSnapshot, writeSnapshot } from '../lib/jobs/snapshot.js';
 import { AdapterEnvelopeSchema, SCHEMA_VERSION, RULES_VERSION } from '../lib/jobs/schema.js';
 
-export async function fixturePipeline({ fixture, registry, previous, out, now }) {
+const DetailsFileSchema = z.strictObject({
+  dataset_kind: z.literal('synthetic'),
+  source_id: z.string().min(1),
+  details: z.record(z.string().regex(/^[1-9][0-9]*$/), z.unknown()),
+});
+
+export async function fixturePipeline({ fixture, registry, details, previous, out, now }) {
   await requireLocalConfig();
   const raw = JSON.parse(await readFile(fixture, 'utf8'));
+  const detailFile = details ? DetailsFileSchema.parse(JSON.parse(await readFile(details, 'utf8'))) : null;
+  const detailRecords = detailFile?.details ?? {};
   const records = validateRegistry(JSON.parse(await readFile(registry, 'utf8')));
   if (records.sources.length !== 1 || !now || !out) throw new Error('FIXTURE_INPUT_INVALID');
   const source = records.sources[0];
+  if (detailFile && detailFile.source_id !== source.source_id) throw new Error('DETAIL_SOURCE_MISMATCH');
   const company = records.companies.find(c => c.company_id === source.company_id);
-  const normalized = normalizeGreenhouse(raw, { source, company, observed_at: now });
-  const hash = createHash('sha256').update(JSON.stringify({ raw, registry: records, now })).digest('hex');
+  const normalized = normalizeGreenhouse(raw, { source, company, observed_at: now, details: detailRecords });
+  const hash = createHash('sha256').update(JSON.stringify({ raw, details: detailRecords, registry: records, now, rules_version: RULES_VERSION })).digest('hex');
   const runId = `fixture-${hash.slice(0, 24)}`;
   const envelope = AdapterEnvelopeSchema.parse({
     source_id: source.source_id,
@@ -32,7 +42,7 @@ export async function fixturePipeline({ fixture, registry, previous, out, now })
     jobs: normalized.jobs,
     observed_ids: normalized.jobs.map(job => job.job_id),
     required_evidence_failures: normalized.jobs.filter(job => !job.eligibility_evidence_complete).map(job => job.job_id),
-    optional_enrichment_failures: [],
+    optional_enrichment_failures: normalized.jobs.filter(job => job.compensation_enrichment_status === 'failed').map(job => job.job_id),
     attempted_at: now,
     completed_at: now,
     issues: [],
@@ -64,7 +74,7 @@ if (process.argv[1] && resolve(process.argv[1]) === resolve(import.meta.filename
   try {
     const args = process.argv.slice(2), options = {};
     for (let i = 0; i < args.length; i += 2) {
-      if (!['--fixture', '--registry', '--previous', '--out', '--now'].includes(args[i]) || !args[i + 1]) throw new Error('INVALID_ARGUMENT');
+      if (!['--fixture', '--registry', '--details', '--previous', '--out', '--now'].includes(args[i]) || !args[i + 1]) throw new Error('INVALID_ARGUMENT');
       const key = args[i].slice(2);
       if (key in options) throw new Error('DUPLICATE_ARGUMENT');
       options[key] = args[i + 1];
